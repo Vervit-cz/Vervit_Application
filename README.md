@@ -1,1 +1,0 @@
-# Vervit_Application
