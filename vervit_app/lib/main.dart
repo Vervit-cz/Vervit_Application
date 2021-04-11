@@ -13,8 +13,6 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
 
-  Color _backgroundColor = Colors.blue[400];
-
   int _selectedIndex = 0;
 
   void _onItemTapped(int index) {
@@ -38,34 +36,31 @@ class _HomeState extends State<Home> {
           BottomNavigationBarItem(
             icon: Icon(
               Icons.home,
-              color: _backgroundColor,
             ),
-            label: 'Home',
+            label: 'Domů',
           ),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.track_changes,
-              color: _backgroundColor,
             ),
-            label: 'Tracks',
+            label: 'Kurzy',
           ),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.question_answer,
-              color: _backgroundColor,
             ),
-            label: 'FAQs',
+            label: 'Často kladené otázky',
           ),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.contacts,
-              color: _backgroundColor,
             ),
-            label: 'Contacts',
+            label: 'Kontakty',
           ),
         ],
         currentIndex: _selectedIndex,
         selectedItemColor: Colors.blue[800],
+        unselectedItemColor: Colors.blue[400],
         onTap: _onItemTapped,
       ),
     );
