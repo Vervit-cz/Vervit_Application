@@ -14,7 +14,6 @@ class Home extends StatefulWidget {
   @override
   _HomeState createState() => _HomeState();
 }
-
 class _HomeState extends State<Home> {
 
   int _selectedIndex = 0;
@@ -48,13 +47,13 @@ class _HomeState extends State<Home> {
             icon: Icon(
               Icons.home,
             ),
-            label: 'Domů',
+            label: 'Home',
           ),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.track_changes,
             ),
-            label: 'Kurzy',
+            label: 'Tracks',
           ),
           BottomNavigationBarItem(
             icon: Icon(
@@ -66,7 +65,7 @@ class _HomeState extends State<Home> {
             icon: Icon(
               Icons.contacts,
             ),
-            label: 'Kontakty',
+            label: 'Contacts',
           ),
         ],
         currentIndex: _selectedIndex,
