@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:vervit_app/pages/home_page.dart';
+import 'package:vervit_app/pages/tracks_page.dart';
+import 'package:vervit_app/pages/faqs_page.dart';
+import 'package:vervit_app/pages/contacts_page.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -15,6 +19,13 @@ class _HomeState extends State<Home> {
 
   int _selectedIndex = 0;
 
+  List<Widget> _widgetOptions = <Widget>[
+    HomePage(),
+    TracksPage(),
+    FAQsPage(),
+    ContactsPage(),
+  ];
+
   void _onItemTapped(int index) {
     setState(() {
       _selectedIndex = index;
@@ -30,7 +41,7 @@ class _HomeState extends State<Home> {
         title: Text('Hello World!'),
         centerTitle: true,
       ),
-      body: Container(),
+      body: _widgetOptions.elementAt(_selectedIndex),
       bottomNavigationBar: BottomNavigationBar(
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
@@ -49,7 +60,7 @@ class _HomeState extends State<Home> {
             icon: Icon(
               Icons.question_answer,
             ),
-            label: 'Často kladené otázky',
+            label: 'FAQs',
           ),
           BottomNavigationBarItem(
             icon: Icon(
@@ -62,8 +73,9 @@ class _HomeState extends State<Home> {
         selectedItemColor: Colors.blue[800],
         unselectedItemColor: Colors.blue[400],
         onTap: _onItemTapped,
+        showUnselectedLabels: true,
+        showSelectedLabels: true,
       ),
     );
   }
 }
-
