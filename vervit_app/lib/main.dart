@@ -33,8 +33,8 @@ class _HomeState extends State<Home> {
   List<Widget> _widgetOptions = <Widget>[
     HomePage(),
     TracksPage(),
+    SearchPage(),
     FAQsPage(),
-    ContactsPage(),
   ];
 
   void _onItemTapped(int index) {
@@ -68,15 +68,15 @@ class _HomeState extends State<Home> {
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.question_answer,
+              Icons.search,
             ),
-            label: 'FAQs',
+            label: 'Search',
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.contacts,
+              Icons.question_answer,
             ),
-            label: 'Contacts',
+            label: 'FAQs',
           ),
         ],
         currentIndex: _selectedIndex,

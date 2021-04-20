@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
-class ContactsPage extends StatefulWidget {
+class SearchPage extends StatefulWidget {
   @override
-  _ContactsPageState createState() => _ContactsPageState();
+  _SearchPageState createState() => _SearchPageState();
 }
 
-class _ContactsPageState extends State<ContactsPage> {
+class _SearchPageState extends State<SearchPage> {
   @override
   Widget build(BuildContext context) {
     return Center(
       child: Text(
-        'Contacts Page',
+        'Search Page',
         style: TextStyle(
           fontSize: 18.0,
           fontWeight: FontWeight.bold,
