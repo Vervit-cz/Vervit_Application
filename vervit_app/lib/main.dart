@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:vervit_app/pages/home_page.dart';
 import 'package:vervit_app/pages/tracks_page.dart';
 import 'package:vervit_app/pages/faqs_page.dart';
-import 'package:vervit_app/pages/contacts_page.dart';
+import 'package:vervit_app/pages/search_page.dart';
 import 'package:vervit_app/pages/home/computer_page.dart';
 import 'package:vervit_app/pages/home/phone_page.dart';
 
