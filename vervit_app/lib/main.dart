@@ -5,6 +5,7 @@ import 'package:vervit_app/pages/faqs_page.dart';
 import 'package:vervit_app/pages/search_page.dart';
 import 'package:vervit_app/pages/home/computer_page.dart';
 import 'package:vervit_app/pages/home/phone_page.dart';
+import 'pages/splash_screen.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -15,7 +16,8 @@ void main() {
 
     initialRoute: '/',
     routes: {
-      '/': (context) => Home(),
+      '/': (context) => Splash(),
+      '/home':(context) => Home(),
       '/computer': (context) => ComputerPage(),
       '/phone': (context) => PhonePage(),
     },

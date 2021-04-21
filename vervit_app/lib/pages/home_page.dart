@@ -15,30 +15,40 @@ class _HomePageState extends State<HomePage> {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           Expanded(
-              child: ReusableCard(
-                color: Color(0xFF6DA8DA),
-                onPress: () {
-                  Navigator.pushNamed(context, '/computer');
-                },
-                cardChild:
-                    IconCardContent(
-                      text: 'Computer',
-                      icon: Icons.computer,
-                    ),
-                ),
+            child: Container(
+              alignment: Alignment.bottomLeft,
+              padding: EdgeInsets.only(left:15.0),
+              child: Text(
+                'Vyberte si, co se chcete naučit:',
+                style: TextStyle(fontSize: 23.0, fontWeight: FontWeight.bold),
               ),
+            ),
+          ),
           Expanded(
-              child: ReusableCard(
-                color: Color(0xFF6DA8DA),
-                onPress: () {
-                  Navigator.pushNamed(context, '/phone');
-                },
-                cardChild:
-                IconCardContent(
-                  text: 'Mobile',
-                  icon: Icons.phone_android,
-                ),
+            flex: 6,
+            child: ReusableCard(
+              color: Color(0xFF6DA8DA),
+              onPress: () {
+                Navigator.pushNamed(context, '/computer');
+              },
+              cardChild: IconCardContent(
+                text: 'Počítač',
+                icon: Icons.computer,
               ),
+            ),
+          ),
+          Expanded(
+            flex: 6,
+            child: ReusableCard(
+              color: Color(0xFF6DA8DA),
+              onPress: () {
+                Navigator.pushNamed(context, '/phone');
+              },
+              cardChild: IconCardContent(
+                text: 'Mobil',
+                icon: Icons.phone_android,
+              ),
+            ),
           ),
         ],
       ),
