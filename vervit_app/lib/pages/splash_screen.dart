@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:vervit_app/main.dart';
+import 'package:vervit_app/constants.dart';
 
 class Splash extends StatefulWidget {
   @override
@@ -8,7 +9,7 @@ class Splash extends StatefulWidget {
 }
 
 class _SplashState extends State<Splash> {
-  final splashDelay = 3;
+  final splashDelay = 5;
   @override
   void initState() {
     super.initState();
@@ -21,7 +22,7 @@ class _SplashState extends State<Splash> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFF53af9e),
+      backgroundColor: kColorTeal,
       body: SafeArea(
         child: Center(
           child: Container(

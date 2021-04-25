@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:vervit_app/components/reusable_card.dart';
 import 'package:vervit_app/components/iconCard_content.dart';
+import 'package:vervit_app/constants.dart';
 
 class PhonePage extends StatefulWidget {
   @override
@@ -21,23 +22,35 @@ class _PhonePageState extends State<PhonePage> {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Expanded(
-              child: ReusableCard(
-                color: Color(0xFF6DA8DA),
-                onPress: () {
-                  //TODO navigator
-                },
-                cardChild:
-                IconCardContent(
-                  text: 'Android phone',
-                  icon: Icons.phone_android_sharp,
+              child: Container(
+                alignment: Alignment.center,
+                margin: EdgeInsets.only(left:15.0, right: 15.0, top:10.0),
+                child: Text(
+                  'Vyberte si model:',
+                  style: TextStyle(fontSize: 23.0, fontWeight: FontWeight.bold),
                 ),
               ),
             ),
             Expanded(
+              flex: 6,
               child: ReusableCard(
-                color: Color(0xFF6DA8DA),
+                color: kColorLightBlue,
                 onPress: () {
-                  //TODO navigator
+                    Navigator.pushNamed(context, '/androidPhone');
+                },
+                cardChild:
+                IconCardContent(
+                  text: 'Android',
+                  icon: Icons.phone_android_rounded,
+                ),
+              ),
+            ),
+            Expanded(
+              flex: 6,
+              child: ReusableCard(
+                color: kColorLightBlue,
+                onPress: () {
+                  Navigator.pushNamed(context, '/iphone');
                 },
                 cardChild:
                 IconCardContent(
@@ -47,7 +60,7 @@ class _PhonePageState extends State<PhonePage> {
               ),
             ),
             SizedBox(
-              height: 15.0,
+              height: 20.0,
             ),
           ],
         ),

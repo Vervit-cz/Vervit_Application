@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:vervit_app/components/reusable_card.dart';
 import 'package:vervit_app/components/iconCard_content.dart';
+import 'package:vervit_app/constants.dart';
 
 
 class ComputerPage extends StatefulWidget {
@@ -23,14 +24,14 @@ class _ComputerPageState extends State<ComputerPage> {
           children: [
             Expanded(
               child: ReusableCard(
-                color: Color(0xFF6DA8DA),
+                color: kColorLightBlue,
                 onPress: () {
-                  //TODO navigator
+                  Navigator.pushNamed(context, '/computerBasics');
                 },
                 cardChild:
                 IconCardContent(
-                  text: 'PC',
-                  icon: Icons.computer_rounded,
+                  text: 'Základy',
+                  icon: Icons.info,
                 ),
               ),
             ),
@@ -38,17 +39,17 @@ class _ComputerPageState extends State<ComputerPage> {
               child: ReusableCard(
                 color: Color(0xFF6DA8DA),
                 onPress: () {
-                  //TODO navigator
+                 Navigator.pushNamed(context, '/internet');
                 },
                 cardChild:
                 IconCardContent(
-                  text: 'MacOS',
-                  icon: Icons.desktop_mac_sharp,
+                  text: 'Internet',
+                  icon: Icons.wifi,
                 ),
               ),
             ),
             SizedBox(
-              height: 15.0,
+              height: 20.0,
             ),
           ],
         ),
