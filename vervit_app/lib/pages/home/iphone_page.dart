@@ -23,41 +23,23 @@ class _IphonePageState extends State<IphonePage> {
           children: [
             Expanded(
               child: ReusableCard(
-                color: kColorLightBlue,
-                onPress: () {
-                  Navigator.pushNamed(context, '/iphoneBasics');
-                },
-                cardChild:
-                IconCardContent(
-                  text: 'Základy',
-                  icon: Icons.info,
-                ),
+                text: 'Základy',
+                icon: Icons.info,
+                navigateTo:'/iphoneBasics',
               ),
             ),
             Expanded(
               child: ReusableCard(
-                color: kColorLightBlue,
-                onPress: () {
-                  Navigator.pushNamed(context, '/iphoneApps');
-                },
-                cardChild:
-                IconCardContent(
-                  text: 'Aplikace',
-                  icon: Icons.apps,
-                ),
+                text: 'Aplikace',
+                icon: Icons.apps,
+                navigateTo:'/iphoneApps',
               ),
             ),
             Expanded(
               child: ReusableCard(
-                color: kColorLightBlue,
-                onPress: () {
-                  Navigator.pushNamed(context, '/iphoneSocial');
-                },
-                cardChild:
-                IconCardContent(
-                  text: 'Sociální sítě',
-                  icon: Icons.people,
-                ),
+                text: 'Sociální sítě',
+                icon: Icons.people,
+                navigateTo:'/iphoneSocial',
               ),
             ),
             SizedBox(

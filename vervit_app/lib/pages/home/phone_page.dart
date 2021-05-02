@@ -34,31 +34,19 @@ class _PhonePageState extends State<PhonePage> {
             Expanded(
               flex: 6,
               child: ReusableCard(
-                color: kColorLightBlue,
-                onPress: () {
-                    Navigator.pushNamed(context, '/androidPhone');
-                },
-                cardChild:
-                IconCardContent(
-                  text: 'Android',
-                  icon: Icons.phone_android_rounded,
-                ),
+                text:'Android',
+                icon: Icons.phone_android_rounded,
+                navigateTo: '/androidPhone',
               ),
             ),
             Expanded(
               flex: 6,
               child: ReusableCard(
-                color: kColorLightBlue,
-                onPress: () {
-                  Navigator.pushNamed(context, '/iphone');
-                },
-                cardChild:
-                IconCardContent(
-                  text: 'iPhone',
+                  text:'iPhone',
                   icon: Icons.phone_iphone_rounded,
+                  navigateTo: '/iphone',
                 ),
               ),
-            ),
             SizedBox(
               height: 20.0,
             ),

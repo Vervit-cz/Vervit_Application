@@ -2,6 +2,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:vervit_app/main.dart';
 import 'package:vervit_app/constants.dart';
+import 'package:splashscreen/splashscreen.dart';
 
 class Splash extends StatefulWidget {
   @override
@@ -21,20 +22,15 @@ class _SplashState extends State<Splash> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return SplashScreen(
       backgroundColor: kColorTeal,
-      body: SafeArea(
-        child: Center(
-          child: Container(
-            alignment: Alignment.center,
-            child: Text(
-              'VERVIT',
-              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 40.0,),
-            ),
-            //TODO add image asset for splash
-          ),
-        ),
+      seconds: splashDelay,
+      title:Text(
+        'VERVIT',
+        style: TextStyle(fontWeight: FontWeight.bold, fontSize: 40.0),
       ),
+      //TODO add image asset for splash
+      loaderColor: Colors.black,
     );
   }
 

@@ -22,41 +22,23 @@ class _AndroidPhonePageState extends State<AndroidPhonePage> {
           children: [
             Expanded(
               child: ReusableCard(
-                color: kColorLightBlue,
-                onPress: () {
-                  Navigator.pushNamed(context, '/androidBasics');
-                },
-                cardChild:
-                IconCardContent(
-                  text: 'Základy',
-                  icon: Icons.info,
-                ),
+                text: 'Základy',
+                icon: Icons.info,
+                navigateTo:'/androidBasics',
               ),
             ),
             Expanded(
               child: ReusableCard(
-                color: kColorLightBlue,
-                onPress: () {
-                  Navigator.pushNamed(context, '/androidApps');
-                },
-                cardChild:
-                IconCardContent(
-                  text: 'Aplikace',
-                  icon: Icons.apps,
-                ),
+                text: 'Aplikace',
+                icon: Icons.apps,
+                navigateTo:'/androidApps',
               ),
             ),
             Expanded(
               child: ReusableCard(
-                color: kColorLightBlue,
-                onPress: () {
-                  Navigator.pushNamed(context, '/androidSocial');
-                },
-                cardChild:
-                IconCardContent(
-                  text: 'Sociální sítě',
-                  icon: Icons.people,
-                ),
+                text: 'Sociální sítě',
+                icon: Icons.people,
+                navigateTo:'/androidSocial',
               ),
             ),
             SizedBox(

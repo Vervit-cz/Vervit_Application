@@ -23,24 +23,13 @@ class _InternetPageState extends State<InternetPage> {
           children: [
             Expanded(
               child: ReusableCard(
-                color: kColorLightBlue,
-                onPress: () {
-                },
-                cardChild:
-                IconCardContent(
-                  text: 'Email',
-                  icon: Icons.email,
-                ),
+                text: 'Email',
+                icon: Icons.email,
               ),
             ),
             Expanded(
               child: ReusableCard(
-                color: kColorLightBlue,
-                onPress: () {
-                },
-                cardChild: IconCardContent(
-                  text: '...',
-                ),
+                text: '...',
                 ),
               ),
             SizedBox(

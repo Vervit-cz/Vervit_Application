@@ -24,28 +24,16 @@ class _ComputerPageState extends State<ComputerPage> {
           children: [
             Expanded(
               child: ReusableCard(
-                color: kColorLightBlue,
-                onPress: () {
-                  Navigator.pushNamed(context, '/computerBasics');
-                },
-                cardChild:
-                IconCardContent(
-                  text: 'Základy',
-                  icon: Icons.info,
-                ),
+                text:'Základy',
+                icon: Icons.info,
+                navigateTo: '/computerBasics',
               ),
             ),
             Expanded(
               child: ReusableCard(
-                color: Color(0xFF6DA8DA),
-                onPress: () {
-                 Navigator.pushNamed(context, '/internet');
-                },
-                cardChild:
-                IconCardContent(
-                  text: 'Internet',
-                  icon: Icons.wifi,
-                ),
+                text: 'Internet',
+                icon:Icons.wifi ,
+                navigateTo: '/internet',
               ),
             ),
             SizedBox(
