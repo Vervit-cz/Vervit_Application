@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:vervit_app/components/reusable_card.dart';
 import 'package:vervit_app/components/iconCard_content.dart';
+import 'package:vervit_app/constants.dart';
 
 class HomePage extends StatefulWidget {
   @override
   _HomePageState createState() => _HomePageState();
 }
+
 
 class _HomePageState extends State<HomePage> {
   @override
@@ -15,30 +17,30 @@ class _HomePageState extends State<HomePage> {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           Expanded(
-              child: ReusableCard(
-                color: Color(0xFF6DA8DA),
-                onPress: () {
-                  Navigator.pushNamed(context, '/computer');
-                },
-                cardChild:
-                    IconCardContent(
-                      text: 'Computer',
-                      icon: Icons.computer,
-                    ),
-                ),
+            child: Container(
+              alignment: Alignment.center,
+              margin: EdgeInsets.only(left:15.0, right: 15.0, top:10.0),
+              child: Text(
+                'Vyberte si, co se chcete naučit:',
+                style: TextStyle(fontSize: 23.0),
               ),
+            ),
+          ),
           Expanded(
-              child: ReusableCard(
-                color: Color(0xFF6DA8DA),
-                onPress: () {
-                  Navigator.pushNamed(context, '/phone');
-                },
-                cardChild:
-                IconCardContent(
-                  text: 'Mobile',
-                  icon: Icons.phone_android,
-                ),
-              ),
+            flex: 6,
+            child: ReusableCard(
+              text: 'Práci s počítačem',
+              icon: Icons.computer,
+              navigateTo:'/computer',
+            ),
+          ),
+          Expanded(
+            flex: 6,
+            child: ReusableCard(
+              text: 'Práci s chytrým telefonem',
+              icon: Icons.phone_android,
+              navigateTo: '/phone',
+            ),
           ),
         ],
       ),
