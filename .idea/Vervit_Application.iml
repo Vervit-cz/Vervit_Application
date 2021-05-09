@@ -6,6 +6,12 @@
       <excludeFolder url="file://$MODULE_DIR$/vervit_app/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/vervit_app/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/vervit_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/vervit_app/ios/.symlinks/plugins/path_provider/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/vervit_app/ios/.symlinks/plugins/path_provider/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/vervit_app/ios/.symlinks/plugins/path_provider/build" />
+      <excludeFolder url="file://$MODULE_DIR$/vervit_app/ios/.symlinks/plugins/path_provider/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/vervit_app/ios/.symlinks/plugins/path_provider/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/vervit_app/ios/.symlinks/plugins/path_provider/example/build" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
