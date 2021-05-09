@@ -1,31 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:vervit_app/pages/tracks/track.dart';
-import 'package:vervit_app/pages/tracks/specific_tracks/track_1.dart';
-import 'package:vervit_app/pages/tracks/specific_tracks/track_2.dart';
-import 'package:vervit_app/pages/tracks/specific_tracks/track_3.dart';
+import 'package:vervit_app/navigation/tracks_navigation.dart';
 
 class TracksPage extends StatefulWidget {
   @override
   _TracksPageState createState() => _TracksPageState();
 }
 
-List<Track> tracks = [
-  Track(name: 'První kroky s počítačem', description: 'V tomto kurzu představujeme úplné základy práce s počítačem. Nepotřebujete k němu žádnou přechozí znalost, pouze zapnutý stolní počítač nebo notebook.', difficulty: 'Nízká obtížnost'),
-  Track(name: 'Track 2', description: 'Description for Track 2', difficulty: 'Střední obtížnost'),
-  Track(name: 'Track 3', description: 'Description for Track 3', difficulty: 'Vyšší obtížnost'),
-];
-
-List<Widget> _widgetNavigation = [
-  TrackOne(),
-  TrackTwo(),
-  TrackThree()
-];
-
 Color chooseColor(index) {
-  if (tracks[index].difficulty == 'Nízká obtížnost') {
+  if (tracks[index]['difficulty'] == 'Nízká obtížnost') {
     return Colors.green;
   }
-  else if (tracks[index].difficulty == 'Střední obtížnost') {
+  else if (tracks[index]['difficulty'] == 'Střední obtížnost') {
     return Colors.orange[400];
   }
   else {
@@ -48,7 +34,7 @@ class _TracksPageState extends State<TracksPage> {
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: <Widget>[
                   Text(
-                    tracks[index].name,
+                    tracks[index]['name'],
                     style: TextStyle(
                       fontSize: 20.0,
                       color: Colors.black,
@@ -59,7 +45,7 @@ class _TracksPageState extends State<TracksPage> {
                     thickness: 3.0,
                   ),
                   Text(
-                    tracks[index].description,
+                    tracks[index]['description'],
                     style: TextStyle(
                       fontSize: 16.0,
                       color: Colors.grey[800],
@@ -78,7 +64,7 @@ class _TracksPageState extends State<TracksPage> {
                         Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Text(
-                            tracks[index].difficulty,
+                            tracks[index]['difficulty'],
                             style: TextStyle(
                               fontSize: 16.0,
                               color: Colors.grey[800],
@@ -93,7 +79,8 @@ class _TracksPageState extends State<TracksPage> {
             )
           ),
           onTap: () {
-            Navigator.push(context, MaterialPageRoute(builder: (context) => _widgetNavigation[index]));
+            Track.setTrackIndex(index);
+            Navigator.push(context, MaterialPageRoute(builder: (context) => TrackWidget()));
           },
         );
       }

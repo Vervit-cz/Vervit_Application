@@ -55,6 +55,78 @@ class _HomeState extends State<Home> {
         backgroundColor: kColorTeal,
         title: Text('VERVIT', style: TextStyle(color: Colors.black),),
       ),
+      drawer: Drawer(
+        child: Column(
+          children: <Widget> [
+            DrawerHeader(
+              child: Text(
+                'Contacts',
+                style: TextStyle(
+                  fontSize: 20.0,
+                  color: Colors.black,
+                )
+              ),
+            ),
+            Card(
+              margin: const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 0.0),
+              child: Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: Row(
+                  children: <Widget> [
+                    Icon(
+                      Icons.accessibility_new_sharp
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text(
+                        'Vervit',
+                      ),
+                    ),
+                  ]
+                ),
+              )
+            ),
+            Card(
+              margin: const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 0.0),
+              child: Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: Row(
+                  children: <Widget> [
+                    Icon(
+                      Icons.mail_outline,
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text(
+                        'vervitpodpora@gmail.com',
+                      ),
+                    ),
+                  ]
+                ),
+              )
+            ),
+            Card(
+              margin: const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 0.0),
+              child: Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: Row(
+                  children: <Widget> [
+                    Icon(
+                      Icons.settings_ethernet_outlined,
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text(
+                        'www.vervit.cz',
+                      ),
+                    ),
+                  ]
+                ),
+              )
+            ),
+          ]
+        )
+      ),
       body: _widgetOptions.elementAt(_selectedIndex),
       bottomNavigationBar: BottomNavigationBar(
         items: <BottomNavigationBarItem>[

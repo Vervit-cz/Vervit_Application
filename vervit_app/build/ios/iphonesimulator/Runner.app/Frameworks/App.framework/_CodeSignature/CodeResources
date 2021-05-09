@@ -10,15 +10,15 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		HWGTgixw3hRe/Td28V/51yREZlA=
+		VrDxO2kGcq+oCpHi8SQzMxJEJ34=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
-		HuqT/dgvrTHOMum5Qo5BXfxzfaM=
+		vKJkVIcw+LGHFnKJGwrQwCREv68=
 		</data>
 		<key>flutter_assets/NOTICES</key>
 		<data>
-		IraROQK3dU2Y/UN+F1QvDoRQkr4=
+		7EnEvgH/gjz2127TWmnPJUiAfP8=
 		</data>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
@@ -30,23 +30,23 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		x9eTTVqIsdCJ01SLYDvvQDfgvAQ=
+		zZNj2ZYNq75Gm4nSz8fzlAPhi3E=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
 		P7bb/oR3EhwqCIH1M6LyTuBIWYU=
 		</data>
-		<key>flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf</key>
+		<key>flutter_assets/packages/flutter_inappwebview/t_rex_runner/t-rex.css</key>
 		<data>
-		BV6ddA9KSAfBO+sPqqAjjvEuOdo=
+		mBihw0DQ+fObskdvU/uJxi4GQ/4=
 		</data>
-		<key>flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf</key>
+		<key>flutter_assets/packages/flutter_inappwebview/t_rex_runner/t-rex.html</key>
 		<data>
-		pBPI2simJenD86E05mXmIqcIX5g=
+		60RUAYYoUnETCwVvpgmbGYgxn8Q=
 		</data>
-		<key>flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf</key>
+		<key>flutter_assets/packages/youtube_player_flutter/assets/speedometer.webp</key>
 		<data>
-		aUuKJEX/Od5BW/R5GEVEKnsbgeU=
+		TDvhTCHVurikSmzXUIYz0DM62Dw=
 		</data>
 		<key>flutter_assets/vm_snapshot_data</key>
 		<data>
@@ -59,33 +59,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HWGTgixw3hRe/Td28V/51yREZlA=
+			VrDxO2kGcq+oCpHi8SQzMxJEJ34=
 			</data>
 			<key>hash2</key>
 			<data>
-			Nf4MKSrvgh69eN7LpdiHt8ClTnRT++QEdKMm4vQOmT0=
+			tTh0vuFI7RdLJQJSoO9DC/pRcScRUuEVgovGbGyaZsg=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HuqT/dgvrTHOMum5Qo5BXfxzfaM=
+			vKJkVIcw+LGHFnKJGwrQwCREv68=
 			</data>
 			<key>hash2</key>
 			<data>
-			LNlBG1QOXG4VrGVSOjYBvuZorsqRBOHeE2/DSzqRJ3E=
+			zX4DZFvESy3Ue3y2JvUcTsv1Whl6t3JBYotHrBZfviE=
 			</data>
 		</dict>
 		<key>flutter_assets/NOTICES</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IraROQK3dU2Y/UN+F1QvDoRQkr4=
+			7EnEvgH/gjz2127TWmnPJUiAfP8=
 			</data>
 			<key>hash2</key>
 			<data>
-			OmH8EeM9z9fY0HYPDdvvZ5ZRB/ZmEOYEI6/3R7Ko4qg=
+			BAwYvpmarJS+KAPFkdGLI3/yfQjPOyOU8aHBKbcOdKo=
 			</data>
 		</dict>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
@@ -114,11 +114,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			x9eTTVqIsdCJ01SLYDvvQDfgvAQ=
+			zZNj2ZYNq75Gm4nSz8fzlAPhi3E=
 			</data>
 			<key>hash2</key>
 			<data>
-			fJoO5CYsr4oPrREPuI6REqEhn2p5n4YoV7beD0nS8ZM=
+			5X3i3iRgz/C9CRqsb8Rw100AmGfAPjSr8JwCRWY6G1w=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -132,37 +132,37 @@
 			x6NX+tjyECiQtyzbbjyY8U2zoZ7GDbJtE+T+k/dzgI0=
 			</data>
 		</dict>
-		<key>flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf</key>
+		<key>flutter_assets/packages/flutter_inappwebview/t_rex_runner/t-rex.css</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BV6ddA9KSAfBO+sPqqAjjvEuOdo=
+			mBihw0DQ+fObskdvU/uJxi4GQ/4=
 			</data>
 			<key>hash2</key>
 			<data>
-			L78EQKL1aKdI/+yvRXWqxzjwjM+8CvD8zvtOSZx/nDU=
+			LlYyIL2FXhHyMNwnoNby/VuDmimW+G7cgCWqtF5vpcM=
 			</data>
 		</dict>
-		<key>flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf</key>
+		<key>flutter_assets/packages/flutter_inappwebview/t_rex_runner/t-rex.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pBPI2simJenD86E05mXmIqcIX5g=
+			60RUAYYoUnETCwVvpgmbGYgxn8Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			tXGPkvTIG+T2stVc6cC7JOg9r4viX7knNAVv69z0msU=
+			3HLPwfHSpQE7ud40+MrPXiblQtfXE/y+CbhltKrKbd8=
 			</data>
 		</dict>
-		<key>flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf</key>
+		<key>flutter_assets/packages/youtube_player_flutter/assets/speedometer.webp</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aUuKJEX/Od5BW/R5GEVEKnsbgeU=
+			TDvhTCHVurikSmzXUIYz0DM62Dw=
 			</data>
 			<key>hash2</key>
 			<data>
-			P3tQxYwvmm6SheGElQzqeP8CSYuHg5LntkqugnKAlgU=
+			UyJsGpac7pIldiQobLwRFgmPJCSQLk0Ald1JuO/hCTg=
 			</data>
 		</dict>
 		<key>flutter_assets/vm_snapshot_data</key>
