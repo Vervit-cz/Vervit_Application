@@ -1,6 +1,7 @@
 import 'package:vervit_app/components/reusable_card.dart';
 import 'package:flutter/material.dart';
 import 'package:vervit_app/constants.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class CardPage{
   String pageName;
@@ -52,12 +53,12 @@ var homePages = [
     cards:[
       Card(
         text:'Základy',
-        icon: Icons.menu_book,
+        icon: Icons.info,
         navigateTo: 'computer basics',
       ),
       Card(
         text: 'Internet',
-        icon:Icons.wifi,
+        icon: FontAwesomeIcons.wifi,
         navigateTo: 'internet',
       ),
     ],
@@ -153,7 +154,7 @@ var homePages = [
       ),
       Card(
         text: 'Internetové prohlížeče',
-        icon: Icons.explore_outlined,
+        icon: FontAwesomeIcons.safari,
         navigateTo: 'browser',
       ),
     ],

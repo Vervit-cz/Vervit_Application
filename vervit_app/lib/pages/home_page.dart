@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:vervit_app/components/reusable_card.dart';
 import 'package:vervit_app/constants.dart';
 import 'package:vervit_app/pages/home/card_navigation.dart';
@@ -8,7 +9,6 @@ class HomePage extends StatefulWidget {
   @override
   _HomePageState createState() => _HomePageState();
 }
-
 
 class _HomePageState extends State<HomePage> {
   @override
@@ -47,10 +47,10 @@ class _HomePageState extends State<HomePage> {
                 Expanded(
                   child: ReusableCard(
                     text: 'Práci s Počítačem',
-                    icon: Icons.monitor,
+                    icon: FontAwesomeIcons.desktop,
                     color: kColorTeal,
                     textSize: 27.0,
-                    iconSize: 110.0,
+                    iconSize: 90.0,
                     onTap: (){
                       Navigator.push(
                         context,
@@ -66,10 +66,10 @@ class _HomePageState extends State<HomePage> {
                 Expanded(
                   child: ReusableCard(
                     text: 'Práci s Mobilem',
-                    icon: Icons.phone_iphone,
+                    icon: FontAwesomeIcons.mobileAlt,
                     color: kColorLightGreen,
                     textSize: 27.0,
-                    iconSize: 110.0,
+                    iconSize: 90.0,
                     onTap: (){
                       Navigator.push(
                         context,
@@ -92,10 +92,10 @@ class _HomePageState extends State<HomePage> {
                 Expanded(
                   child: ReusableCard(
                     text: 'Sociální Sítě',
-                    icon: Icons.people,
+                    icon: FontAwesomeIcons.users,
                     color: kColorYellow,
                     textSize: 27.0,
-                    iconSize: 110.0,
+                    iconSize: 90.0,
                     onTap: (){
                       Navigator.push(
                         context,
@@ -111,10 +111,10 @@ class _HomePageState extends State<HomePage> {
                 Expanded(
                   child: ReusableCard(
                     text: 'Bezpečnost Na Internetu',
-                    icon: Icons.lock,
+                    icon: FontAwesomeIcons.userLock,
                     color: kColorRed,
                     textSize: 27.0,
-                    iconSize: 110.0,
+                    iconSize: 90.0,
                     onTap: (){
                       Navigator.push(
                         context,

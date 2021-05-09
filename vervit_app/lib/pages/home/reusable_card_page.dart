@@ -45,7 +45,7 @@ class CardPageWidget extends StatelessWidget {
                   color: page.pageColor,
                   text: page.cards[0].text,
                   icon: page.cards[0].icon,
-                  iconSize: 150.0,
+                  iconSize: 140.0,
                   textSize: 35.0,
                   onTap: (){
                     Navigator.push(
@@ -70,7 +70,7 @@ class CardPageWidget extends StatelessWidget {
                     color: page.pageColor,
                     text: page.cards[1].text,
                     icon: page.cards[1].icon,
-                    iconSize: 150.0,
+                    iconSize: 140.0,
                     textSize: 35.0,
                     onTap: (){
                       Navigator.push(
