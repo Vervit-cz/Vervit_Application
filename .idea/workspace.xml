@@ -26,26 +26,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be09bb82-22cc-4ba9-836d-b0f6c0aabd90" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Vervit_Application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Vervit_Application.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vervit_app/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/.dart_tool/package_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vervit_app/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/.dart_tool/package_config_subset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vervit_app/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/.flutter-plugins" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/.dart_tool/flutter_build/08e1529a72179c2a7e065bc1afde24ae/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/.dart_tool/flutter_build/08e1529a72179c2a7e065bc1afde24ae/.filecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/.dart_tool/flutter_build/08e1529a72179c2a7e065bc1afde24ae/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/.dart_tool/flutter_build/08e1529a72179c2a7e065bc1afde24ae/app.dill" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vervit_app/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vervit_app/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/.packages" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vervit_app/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vervit_app/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/ios/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vervit_app/lib/pages/home/android_phone_apps.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vervit_app/lib/pages/home/android_phone_basics.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vervit_app/lib/pages/home/android_phone_page.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vervit_app/lib/pages/home/android_phone_social.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vervit_app/lib/pages/home/computer_basics_page.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vervit_app/lib/pages/home/internet_page.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vervit_app/lib/pages/home/iphone_apps.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vervit_app/lib/pages/home/iphone_basics.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vervit_app/lib/pages/home/iphone_page.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vervit_app/lib/pages/home/iphone_social.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vervit_app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/App" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/App" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Runner" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Runner" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/App" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/App" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Runner" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Runner" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/lib/components/reusable_card.dart" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/lib/components/reusable_card.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/lib/pages/home/reusable_card_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/lib/pages/home/reusable_card_page.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,40 +149,40 @@
     </state>
     <state x="594" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.811@0.23.1440.811" timestamp="1620553668966" />
     <state x="594" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.814@0.23.1440.814" timestamp="1618951494193" />
-    <state width="1229" height="206" key="GridCell.Tab.0.bottom" timestamp="1620594321932">
+    <state width="978" height="206" key="GridCell.Tab.0.bottom" timestamp="1620678506241">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state width="1060" height="206" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1620553669805" />
-    <state width="1060" height="206" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1620591522213" />
-    <state width="1229" height="206" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1620594321932" />
-    <state width="1054" height="206" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1620333400826" />
+    <state width="1002" height="206" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1620673594515" />
+    <state width="978" height="206" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1620678506241" />
+    <state width="978" height="206" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1620678040849" />
     <state width="1049" height="196" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1619987306837" />
     <state width="1083" height="196" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1619960725990" />
-    <state width="1229" height="206" key="GridCell.Tab.0.center" timestamp="1620594321932">
+    <state width="978" height="206" key="GridCell.Tab.0.center" timestamp="1620678506240">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state width="1060" height="206" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1620553669804" />
-    <state width="1060" height="206" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1620591522212" />
-    <state width="1229" height="206" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1620594321932" />
-    <state width="1054" height="206" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1620333400826" />
+    <state width="1002" height="206" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1620673594514" />
+    <state width="978" height="206" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1620678506240" />
+    <state width="978" height="206" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1620678040848" />
     <state width="1049" height="196" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1619987306836" />
     <state width="1083" height="196" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1619960725989" />
-    <state width="1229" height="206" key="GridCell.Tab.0.left" timestamp="1620594321928">
+    <state width="978" height="206" key="GridCell.Tab.0.left" timestamp="1620678506240">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state width="1060" height="206" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1620553669804" />
-    <state width="1060" height="206" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1620591522212" />
-    <state width="1229" height="206" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1620594321928" />
-    <state width="1054" height="206" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1620333400825" />
+    <state width="1002" height="206" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1620673594514" />
+    <state width="978" height="206" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1620678506240" />
+    <state width="978" height="206" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1620678040847" />
     <state width="1049" height="196" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1619987306835" />
     <state width="1083" height="196" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1619960725989" />
-    <state width="1229" height="206" key="GridCell.Tab.0.right" timestamp="1620594321932">
+    <state width="978" height="206" key="GridCell.Tab.0.right" timestamp="1620678506240">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state width="1060" height="206" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1620553669805" />
-    <state width="1060" height="206" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1620591522213" />
-    <state width="1229" height="206" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1620594321932" />
-    <state width="1054" height="206" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1620333400826" />
+    <state width="1002" height="206" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1620673594515" />
+    <state width="978" height="206" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1620678506240" />
+    <state width="978" height="206" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1620678040848" />
     <state width="1049" height="196" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1619987306837" />
     <state width="1083" height="196" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1619960725990" />
     <state x="244" y="87" key="MergeDialog" timestamp="1620593323907">

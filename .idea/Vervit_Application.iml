@@ -6,6 +6,12 @@
       <excludeFolder url="file://$MODULE_DIR$/vervit_app/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/vervit_app/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/vervit_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/vervit_app/ios/.symlinks/plugins/flutter_inappwebview/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/vervit_app/ios/.symlinks/plugins/flutter_inappwebview/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/vervit_app/ios/.symlinks/plugins/flutter_inappwebview/build" />
+      <excludeFolder url="file://$MODULE_DIR$/vervit_app/ios/.symlinks/plugins/flutter_inappwebview/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/vervit_app/ios/.symlinks/plugins/flutter_inappwebview/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/vervit_app/ios/.symlinks/plugins/flutter_inappwebview/example/build" />
       <excludeFolder url="file://$MODULE_DIR$/vervit_app/ios/.symlinks/plugins/path_provider/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/vervit_app/ios/.symlinks/plugins/path_provider/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/vervit_app/ios/.symlinks/plugins/path_provider/build" />

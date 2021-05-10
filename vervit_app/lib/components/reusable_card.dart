@@ -17,7 +17,6 @@ class ReusableCard extends StatelessWidget {
       onTap: (){
         onTap();
     },
-      child: Expanded(
         child: Card(
           color: color,
           child: Container(
@@ -34,7 +33,6 @@ class ReusableCard extends StatelessWidget {
             ),
           elevation: 2,
           ),
-        ),
     );
   }
 }
