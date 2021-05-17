@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:vervit_app/components/reusable_card.dart';
 import 'package:vervit_app/pages/home/card_navigation.dart';
 import 'package:vervit_app/constants.dart';
+import 'video_card_page.dart';
 
 
 class CardPageWidget extends StatelessWidget {
@@ -25,65 +26,58 @@ class CardPageWidget extends StatelessWidget {
             Container(
               alignment: Alignment.centerLeft,
               margin: EdgeInsets.fromLTRB(15.0, 30.0, 15.0, 0.0),
-              child: SizedBox(
-                height: 70.0,
-                child: page.cards.length == 0 ? Text('Heading', textWidthBasis: TextWidthBasis.longestLine,
-                  style: kTitleTextStyle,) : Text(
-                  page.heading,
-                  textWidthBasis: TextWidthBasis.longestLine,
-                  style: kTitleTextStyle,
-                ),
+              child: page.cards.length == 0 ? SizedBox() : SizedBox(
+                  height: 70.0,
+                  child: Text(
+                    page.heading,
+                    textWidthBasis: TextWidthBasis.longestLine,
+                    style: kTitleTextStyle,
+                  ),
               ),
             ),
-            Expanded(
-              child: page.cards.length == 0 ?
-              Padding(
-                padding: const EdgeInsets.all(15.0),
-                child: Text(prevCardName),
-              ) :
-              ReusableCard(
-                  color: page.pageColor,
-                  text: page.cards[0].text,
-                  icon: page.cards[0].icon,
-                  iconSize: 140.0,
-                  textSize: 35.0,
-                  onTap: (){
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => CardPageWidget(
-                            page: findNavigationRoute(page.cards[0].navigateTo,),
-                          prevCardName: page.cards[0].text,
-                        ),
-                      ),
-                    );
-                  }
-              ),
-            ),
-            Expanded(
-                child: page.cards.length == 0 ?
-                Padding(
-                  padding: const EdgeInsets.all(15.0),
-                  child: Text('Add info', ),
-                ) :
-                ReusableCard(
+            page.cards.length == 0 ?
+              VideoCardPage(page: page) :
+              Expanded(
+                child: ReusableCard(
                     color: page.pageColor,
-                    text: page.cards[1].text,
-                    icon: page.cards[1].icon,
-                    iconSize: 130.0,
-                    textSize: 40.0,
+                    text: page.cards[0].text,
+                    icon: page.cards[0].icon,
+                    iconSize: 140.0,
+                    textSize: 35.0,
                     onTap: (){
                       Navigator.push(
                         context,
                         MaterialPageRoute(
                           builder: (context) => CardPageWidget(
-                            page: findNavigationRoute(page.cards[1].navigateTo),
-                            prevCardName: page.cards[1].text,),
+                              page: findNavigationRoute(page.cards[0].navigateTo,),
+                            prevCardName: page.cards[0].text,
+                          ),
                         ),
                       );
                     }
-                )
-            ),
+                ),
+              ),
+            page.cards.length == 0 ?
+                SizedBox() :
+                Expanded(
+                  child: ReusableCard(
+                      color: page.pageColor,
+                      text: page.cards[1].text,
+                      icon: page.cards[1].icon,
+                      iconSize: 130.0,
+                      textSize: 40.0,
+                      onTap: (){
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => CardPageWidget(
+                              page: findNavigationRoute(page.cards[1].navigateTo),
+                              prevCardName: page.cards[1].text,),
+                          ),
+                        );
+                      }
+                  ),
+                ),
             SizedBox(
               height: 20.0,
             ),

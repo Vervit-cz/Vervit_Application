@@ -8,11 +8,13 @@ class CardPage{
   String heading;
   Color pageColor;
   List<Card> cards;
-  CardPage({this.pageName, this.cards, this.heading, this.pageColor}){
+  List<Map<String, String>> videos;
+  CardPage({this.pageName, this.cards, this.heading, this.pageColor, this.videos}){
     this.pageName = pageName;
     this.cards = cards;
     this.heading = heading;
     this.pageColor = pageColor;
+    this.videos = videos;
   }
 }
 
@@ -98,51 +100,6 @@ var homePages = [
     ],
   ),
   CardPage(
-    pageName: 'iphone basics',
-    pageColor: kColorLightGreen,
-    cards:[],
-  ),
-  CardPage(
-    pageName: 'iphone apps',
-    pageColor: kColorLightGreen,
-    cards:[],
-  ),
-  CardPage(
-    pageName: 'android basics',
-    pageColor: kColorLightGreen,
-    cards:[],
-  ),
-  CardPage(
-    pageName: 'android apps',
-    pageColor: kColorLightGreen,
-    cards:[],
-  ),
-  CardPage(
-    pageName: 'computer basics',
-    pageColor: kColorTeal,
-    cards:[],
-  ),
-  CardPage(
-    pageName: 'social media',
-    pageColor: kColorYellow,
-    cards:[],
-  ),
-  CardPage(
-    pageName: 'security',
-    pageColor: kColorRed,
-    cards:[],
-  ),
-  CardPage(
-    pageName: 'email',
-    pageColor: kColorTeal,
-    cards:[],
-  ),
-  CardPage(
-    pageName: 'browser',
-    pageColor: kColorTeal,
-    cards:[],
-  ),
-  CardPage(
     pageName: 'internet',
     heading: 'Co vás zajímá?',
     pageColor: kColorTeal,
@@ -157,6 +114,156 @@ var homePages = [
         icon: FontAwesomeIcons.safari,
         navigateTo: 'browser',
       ),
+    ],
+  ),
+
+  //final pages with videos
+  CardPage(
+    pageName: 'iphone basics',
+    pageColor: kColorLightGreen,
+    cards:[],
+    videos: [
+        {
+          'name': 'Nastavení',
+          'url': '',
+          'description': 'add description',
+        },
+    ],
+  ),
+  CardPage(
+    pageName: 'iphone apps',
+    pageColor: kColorLightGreen,
+    cards:[],
+    videos: [
+        {
+          'name': 'Telefon',
+          'url': '',
+          'description': 'add description',
+        },
+    ],
+  ),
+  CardPage(
+    pageName: 'android basics',
+    pageColor: kColorLightGreen,
+    cards:[],
+    videos: [
+      {
+        'name': 'Nastavení',
+        'url': '',
+        'description': 'add description',
+      },
+    ],
+  ),
+  CardPage(
+    pageName: 'android apps',
+    pageColor: kColorLightGreen,
+    cards:[],
+    videos: [
+      {
+        'name': 'Telefon',
+        'url': '',
+        'description': 'add description',
+      },
+    ],
+  ),
+  CardPage(
+    pageName: 'computer basics',
+    pageColor: kColorTeal,
+    cards:[],
+    videos: [
+      {
+          'name': 'Vypínání počítače',
+          'url': '',
+          'description': 'add description',
+      },
+      {
+        'name': 'Start menu',
+        'url': '',
+        'description': 'add description',
+      },
+      {
+        'name': 'Práce s myší',
+        'url': '',
+        'description': 'add description',
+      },
+      {
+        'name': 'Práce s klávesnicí',
+        'url': '',
+        'description': 'add description',
+      },
+      {
+        'name': 'Práce s touchpadem',
+        'url': '',
+        'description': 'add description',
+      },
+      {
+        'name': 'Základní nastavení',
+        'url': '',
+        'description': 'add description',
+      },
+      {
+        'name': 'Spodní lišta',
+        'url': '',
+        'description': 'add description',
+      },
+      {
+        'name': 'Práce se soubory',
+        'url': '',
+        'description': 'add description',
+      },
+      {
+        'name': 'Práce se složkami',
+        'url': '',
+        'description': 'add description',
+      },
+    ],
+  ),
+  CardPage(
+    pageName: 'social media',
+    pageColor: kColorYellow,
+    cards:[],
+    videos: [
+      {
+        'name': 'Facebook',
+        'url': '',
+        'description': 'add description',
+      },
+    ],
+  ),
+  CardPage(
+    pageName: 'security',
+    pageColor: kColorRed,
+    cards:[],
+    videos: [
+      {
+        'name': 'Jak si nastavit bezpečné heslo',
+        'url': '',
+        'description': 'add description',
+      },
+    ],
+  ),
+  CardPage(
+    pageName: 'email',
+    pageColor: kColorTeal,
+    cards:[],
+    videos: [
+      {
+        'name': 'Sdílet se všemi',
+        'url': '',
+        'description': 'add description',
+      },
+    ],
+  ),
+  CardPage(
+    pageName: 'browser',
+    pageColor: kColorTeal,
+    cards:[],
+    videos: [
+      {
+        'name': 'Google',
+        'url': '',
+        'description': 'add description',
+      },
     ],
   ),
 ];
