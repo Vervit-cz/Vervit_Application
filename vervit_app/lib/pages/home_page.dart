@@ -22,10 +22,13 @@ class _HomePageState extends State<HomePage> {
             child: Container(
               alignment: Alignment.centerLeft,
               margin: EdgeInsets.only(left:15.0, right: 15.0, top:15.0),
-              child: Text(
-                'Vítejte!',
-                style: kSmallTextStyle
-                ),
+              child: FittedBox(
+                fit: BoxFit.scaleDown,
+                child: Text(
+                  'Vítejte!',
+                  style: kSmallTextStyle
+                  ),
+              ),
               ),
             ),
           Expanded(
@@ -33,10 +36,13 @@ class _HomePageState extends State<HomePage> {
             child: Container(
               alignment: Alignment.centerLeft,
               margin: EdgeInsets.fromLTRB(15.0, 0.0,15.0, 0.0),
-              child: Text(
-                'Co se dneska chcete naučit?',
-                textWidthBasis: TextWidthBasis.longestLine,
-                style: kTitleTextStyle,
+              child: FittedBox(
+                fit: BoxFit.scaleDown,
+                child: Text(
+                  'Co se dneska \nchcete naučit?',
+                  textWidthBasis: TextWidthBasis.longestLine,
+                  style: kTitleTextStyle,
+                ),
               ),
             ),
           ),
@@ -46,7 +52,7 @@ class _HomePageState extends State<HomePage> {
               children: [
                 Expanded(
                   child: ReusableCard(
-                    text: 'Práci s Počítačem',
+                    text: 'Práci s \nPočítačem',
                     icon: FontAwesomeIcons.desktop,
                     color: kColorTeal,
                     textSize: 27.0,
@@ -65,7 +71,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 Expanded(
                   child: ReusableCard(
-                    text: 'Práci s Mobilem',
+                    text: 'Práci s \nMobilem',
                     icon: FontAwesomeIcons.mobileAlt,
                     color: kColorLightGreen,
                     textSize: 27.0,
@@ -110,7 +116,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 Expanded(
                   child: ReusableCard(
-                    text: 'Bezpečnost Na Internetu',
+                    text: 'Bezpečnost \nna Internetu',
                     icon: FontAwesomeIcons.userLock,
                     color: kColorRed,
                     textSize: 27.0,

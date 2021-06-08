@@ -26,8 +26,8 @@ class CardPageWidget extends StatelessWidget {
             Container(
               alignment: Alignment.centerLeft,
               margin: EdgeInsets.fromLTRB(15.0, 30.0, 15.0, 0.0),
-              child: page.cards.length == 0 ? SizedBox() : SizedBox(
-                  height: 70.0,
+              child: page.cards.length == 0 ? SizedBox() : FittedBox(
+                  fit: BoxFit.contain,
                   child: Text(
                     page.heading,
                     textWidthBasis: TextWidthBasis.longestLine,
