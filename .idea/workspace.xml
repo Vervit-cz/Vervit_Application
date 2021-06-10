@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:Sára" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="be09bb82-22cc-4ba9-836d-b0f6c0aabd90" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/.dart_tool/flutter_build/08e1529a72179c2a7e065bc1afde24ae/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/.dart_tool/flutter_build/08e1529a72179c2a7e065bc1afde24ae/.filecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/.dart_tool/flutter_build/08e1529a72179c2a7e065bc1afde24ae/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/.dart_tool/flutter_build/08e1529a72179c2a7e065bc1afde24ae/app.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/OrderedSet/OrderedSet.framework/OrderedSet" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/OrderedSet/OrderedSet.framework/OrderedSet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Pods_Runner.framework/Pods_Runner" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Pods_Runner.framework/Pods_Runner" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Pods_Runner.framework/_CodeSignature/CodeDirectory" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Pods_Runner.framework/_CodeSignature/CodeDirectory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Pods_Runner.framework/_CodeSignature/CodeRequirements-1" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Pods_Runner.framework/_CodeSignature/CodeRequirements-1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/App" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/App" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/OrderedSet.framework/OrderedSet" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/OrderedSet.framework/OrderedSet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/flutter_inappwebview.framework/WebView.storyboardc/Myh-pL-l6f-view-1n8-5e-oxa.nib" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/flutter_inappwebview.framework/WebView.storyboardc/Myh-pL-l6f-view-1n8-5e-oxa.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/flutter_inappwebview.framework/WebView.storyboardc/navController.nib" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/flutter_inappwebview.framework/WebView.storyboardc/navController.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/flutter_inappwebview.framework/WebView.storyboardc/viewController.nib" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/flutter_inappwebview.framework/WebView.storyboardc/viewController.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/flutter_inappwebview.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/flutter_inappwebview.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/flutter_inappwebview.framework/flutter_inappwebview" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/flutter_inappwebview.framework/flutter_inappwebview" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/path_provider.framework/path_provider" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/path_provider.framework/path_provider" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Runner" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/Runner" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/flutter_inappwebview/flutter_inappwebview.framework/WebView.storyboardc/Myh-pL-l6f-view-1n8-5e-oxa.nib" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/flutter_inappwebview/flutter_inappwebview.framework/WebView.storyboardc/Myh-pL-l6f-view-1n8-5e-oxa.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/flutter_inappwebview/flutter_inappwebview.framework/WebView.storyboardc/navController.nib" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/flutter_inappwebview/flutter_inappwebview.framework/WebView.storyboardc/navController.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/flutter_inappwebview/flutter_inappwebview.framework/WebView.storyboardc/viewController.nib" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/flutter_inappwebview/flutter_inappwebview.framework/WebView.storyboardc/viewController.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/flutter_inappwebview/flutter_inappwebview.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/flutter_inappwebview/flutter_inappwebview.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/flutter_inappwebview/flutter_inappwebview.framework/flutter_inappwebview" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/flutter_inappwebview/flutter_inappwebview.framework/flutter_inappwebview" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/path_provider/path_provider.framework/path_provider" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/Debug-iphonesimulator/path_provider/path_provider.framework/path_provider" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/App" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/App" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Frameworks/OrderedSet.framework/OrderedSet" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Frameworks/OrderedSet.framework/OrderedSet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Frameworks/flutter_inappwebview.framework/WebView.storyboardc/Myh-pL-l6f-view-1n8-5e-oxa.nib" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Frameworks/flutter_inappwebview.framework/WebView.storyboardc/Myh-pL-l6f-view-1n8-5e-oxa.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Frameworks/flutter_inappwebview.framework/WebView.storyboardc/navController.nib" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Frameworks/flutter_inappwebview.framework/WebView.storyboardc/navController.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Frameworks/flutter_inappwebview.framework/WebView.storyboardc/viewController.nib" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Frameworks/flutter_inappwebview.framework/WebView.storyboardc/viewController.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Frameworks/flutter_inappwebview.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Frameworks/flutter_inappwebview.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Frameworks/flutter_inappwebview.framework/flutter_inappwebview" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Frameworks/flutter_inappwebview.framework/flutter_inappwebview" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Frameworks/path_provider.framework/path_provider" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Frameworks/path_provider.framework/path_provider" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Runner" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/Runner" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/lib/components/iconCard_content.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/lib/components/reusable_card.dart" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/lib/components/reusable_card.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/lib/pages/home/reusable_card_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/lib/pages/home/reusable_card_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vervit_app/lib/pages/home_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/vervit_app/lib/pages/home_page.dart" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1r5JVi9HqXGnLDbB18spp045OnJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="flutter.settings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vervit_app/lib/pages/home" />
+      <recent name="$PROJECT_DIR$/vervit_app/lib/Components" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/vervit_app/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flutter.main.dart" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be09bb82-22cc-4ba9-836d-b0f6c0aabd90" name="Default Changelist" comment="" />
+      <created>1618260042397</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618260042397</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Sára" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="246" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621200637818">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="246" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.814@0.23.1440.814" timestamp="1621200637816" />
+    <state x="594" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1620553668966">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state x="594" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.811@0.23.1440.811" timestamp="1620553668966" />
+    <state x="594" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.814@0.23.1440.814" timestamp="1618951494193" />
+    <state width="1074" height="206" key="GridCell.Tab.0.bottom" timestamp="1623141777210">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1060" height="206" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1620553669805" />
+    <state width="1002" height="206" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1620673594515" />
+    <state width="1074" height="206" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1621240100354" />
+    <state width="1074" height="206" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1621254192171" />
+    <state width="1074" height="206" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1623141777210" />
+    <state width="1049" height="196" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1619987306837" />
+    <state width="1083" height="196" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1619960725990" />
+    <state width="1074" height="206" key="GridCell.Tab.0.center" timestamp="1623141777207">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1060" height="206" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1620553669804" />
+    <state width="1002" height="206" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1620673594514" />
+    <state width="1074" height="206" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1621240100352" />
+    <state width="1074" height="206" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1621254192170" />
+    <state width="1074" height="206" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1623141777207" />
+    <state width="1049" height="196" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1619987306836" />
+    <state width="1083" height="196" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1619960725989" />
+    <state width="1074" height="206" key="GridCell.Tab.0.left" timestamp="1623141777205">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1060" height="206" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1620553669804" />
+    <state width="1002" height="206" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1620673594514" />
+    <state width="1074" height="206" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1621240100352" />
+    <state width="1074" height="206" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1621254192170" />
+    <state width="1074" height="206" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1623141777205" />
+    <state width="1049" height="196" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1619987306835" />
+    <state width="1083" height="196" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1619960725989" />
+    <state width="1074" height="206" key="GridCell.Tab.0.right" timestamp="1623141777209">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1060" height="206" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1620553669805" />
+    <state width="1002" height="206" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1620673594515" />
+    <state width="1074" height="206" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1621240100354" />
+    <state width="1074" height="206" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1621254192170" />
+    <state width="1074" height="206" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1623141777209" />
+    <state width="1049" height="196" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1619987306837" />
+    <state width="1083" height="196" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1619960725990" />
+    <state x="244" y="87" key="MergeDialog" timestamp="1620593323907">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="244" y="87" key="MergeDialog/0.23.1440.814@0.23.1440.814" timestamp="1620593323907" />
+    <state x="449" y="192" key="MultipleFileMergeDialog" timestamp="1620593330737">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="449" y="192" key="MultipleFileMergeDialog/0.23.1440.814@0.23.1440.814" timestamp="1620593330737" />
+    <state x="462" y="130" key="NewModule_or_Project.wizard" timestamp="1618752455966">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="462" y="130" key="NewModule_or_Project.wizard/0.23.1440.816@0.23.1440.816" timestamp="1618752455966" />
+    <state x="238" y="52" key="SettingsEditor" timestamp="1619375376067">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="238" y="52" key="SettingsEditor/0.23.1440.814@0.23.1440.814" timestamp="1619375376067" />
+    <state x="238" y="52" key="SettingsEditor/0.23.1440.816@0.23.1440.816" timestamp="1618261519309" />
+    <state x="402" y="123" width="909" height="602" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1618951224416">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="402" y="123" width="909" height="602" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.814@0.23.1440.814" timestamp="1618951224416" />
+    <state x="652" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1620587831798">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state x="652" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.812@0.23.1440.812" timestamp="1620587831798" />
+    <state x="652" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.814@0.23.1440.814" timestamp="1619023766240" />
+  </component>
+</project>
