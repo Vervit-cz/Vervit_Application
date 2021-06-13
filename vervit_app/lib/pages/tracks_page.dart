@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:vervit_app/constants.dart';
 import 'package:vervit_app/pages/tracks/track.dart';
 import 'package:vervit_app/navigation/tracks_navigation.dart';
 
@@ -9,10 +10,10 @@ class TracksPage extends StatefulWidget {
 
 Color chooseColor(index) {
   if (tracks[index]['difficulty'] == 'Nízká obtížnost') {
-    return Colors.green;
+    return Colors.lightGreen[600];
   }
   else if (tracks[index]['difficulty'] == 'Střední obtížnost') {
-    return Colors.orange[400];
+    return Colors.amber;
   }
   else {
     return Colors.red;
