@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:vervit_app/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:vervit_app/pages/tracks/track.dart';
 import 'package:vervit_app/navigation/tracks_navigation.dart';
+import 'package:vervit_app/components/video_card.dart';
 
 
 class VideoChooser {
@@ -45,8 +47,11 @@ class _VideoState extends State<Video> {
     return Scaffold(
       backgroundColor: Colors.grey[200],
       appBar: _isFullScreen ? null : AppBar(
-        backgroundColor: Colors.blue[800],
-        title: Text(Track.videos[VideoChooser.video]['name']),
+        backgroundColor: Track.color,
+        title: Text(
+          Track.videos[VideoChooser.video]['name'],
+          style: TextStyle(color: Colors.black)
+          ),
         centerTitle: true,
         leading: BackButton(
           onPressed: () {
@@ -57,63 +62,60 @@ class _VideoState extends State<Video> {
       body: _ended ? 
       Column(
         children: [
-          GestureDetector(
-            child: AspectRatio(
-              aspectRatio: 2.15,
-              child: Card(
-                margin: const EdgeInsets.all(16.0),
-                child: Padding(
-                  padding: const EdgeInsets.all(12.0),
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: [
-                      Text(
-                        (VideoChooser.video < Track.videos.length - 1) ? 'Spustit další video v tomto kurzu': 'Vrátit se na předchozí stránku',
-                        style: TextStyle(
-                          fontSize: 18.0,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.black
-                        ),
-                        ),
-                      Text(
-                        (VideoChooser.video < Track.videos.length - 1) ? Track.videos[VideoChooser.video + 1]['name'] : tracks[Track.index]['name'],
-                        style: TextStyle(
-                          fontSize: 16.0,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.black
-                        ),
-                      )
-                    ],
-                  )
-                )
-              ),
-            ),
-            onTap: () {
-              setState(() {
-                if (VideoChooser.video < Track.videos.length - 1) {
-                  VideoChooser.nextVideo();
-                } else  {
-                  Navigator.pop(context);
-                }
-                _ended = false;
-              });
-            },
-          ),
           Card(
-            margin: const EdgeInsets.fromLTRB(16.0, 0.0, 16.0, 0.0),
+            margin: const EdgeInsets.all(16.0),
             child: Padding(
               padding: const EdgeInsets.all(12.0),
               child: Text(
-                Track.videos[VideoChooser.video]['description'],
+                (VideoChooser.video < Track.videos.length - 1) ? 'Následuje video:': 'Zde tento kurz končí. Kliknutím na tlačítko níže se vrátíte na hlavní stránku tohoto kurzu.',
                 style: TextStyle(
                   fontSize: 18.0,
-                  color: Colors.grey[800],
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black,
                   height: 1.15,
                 ),
               )
             )
-          )
+          ),
+          Container(
+            child: (VideoChooser.video < Track.videos.length - 1) ? 
+            Container(
+              margin: const EdgeInsets.fromLTRB(8.0, 0, 8.0, 0),
+              child: Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: VideoCard(
+                  name: Track.videos[VideoChooser.video + 1]['name'],
+                  description: Track.videos[VideoChooser.video + 1]['description'], 
+                  onTap: () { 
+                    VideoChooser.chooseVideo(VideoChooser.video + 1);
+                    Navigator.pop(context);
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => Video()));
+                    _ended = false;
+                  },
+                ),
+              ),
+            ) :
+            GestureDetector(
+              child: Card(
+                margin: const EdgeInsets.all(16.0),
+                child: Padding(
+                  padding: const EdgeInsets.all(12.0),
+                  child: Text(
+                    tracks[Track.index]['name'],
+                    style: TextStyle(
+                      fontSize: 18.0,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black
+                    ),
+                  )
+                )
+              ),
+              onTap: () {
+                Navigator.pop(context);
+                _ended = false;
+              }
+            ),
+          ),
         ]
       ) : 
       YoutubePlayerBuilder(
