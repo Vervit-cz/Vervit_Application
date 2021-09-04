@@ -145,9 +145,9 @@ class _SearchPageState extends State<SearchPage> {
                           .map(
                             (term) => ListTile(
                           title: Text(
-                            term,
-                            maxLines: 1,
-                            overflow: TextOverflow.ellipsis,
+                              term,
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
                               style: TextStyle(
                                 fontSize: 18.0,
                               )
@@ -251,4 +251,3 @@ return ListView(
       ),
     );
  */
-

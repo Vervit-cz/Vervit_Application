@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:vervit_app/database/video.dart';
 
+
 class Database
 {
 
@@ -72,8 +73,6 @@ class Database
       });
     */
 
-
-
   }
 
 
@@ -83,7 +82,7 @@ class Database
     List<String> keywords;
     keywords = (description.toLowerCase().replaceAll(',','').replaceAll('.','').split(' '));
     keywords.addAll(name.toLowerCase().split(' '));
-    keywords.addAll(extraKeywords.toLowerCase().replaceAll(',','').split(' '));
+    keywords.addAll(extraKeywords.toLowerCase().split(' '));
     return keywords;
   }
 
@@ -136,7 +135,7 @@ class Database
 
   static List <VideoObject> orderedSearchList (String searchTerm)
   {
-    print(searchTerm);
+    //print(searchTerm);
     List <VideoObject> orderedVideos = <VideoObject> [];
     List<List<int>> nOfMatches = <List<int>> [];
     nOfMatches = searchDatabase(searchTerm);

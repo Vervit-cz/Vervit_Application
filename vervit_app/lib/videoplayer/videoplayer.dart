@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:vervit_app/constants.dart';
 import 'package:vervit_app/database/videodatabase.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:vervit_app/pages/tracks/track.dart';
-import 'package:vervit_app/navigation/tracks_navigation.dart';
 
 class VideoPlayer {
 
@@ -39,11 +37,11 @@ class _VideoState extends State<Video> {
           backgroundColor: kColorTeal,
           title: Text(
               Database.videoObjectList[VideoPlayer.video-1].name,
-            style: TextStyle(
-              fontSize: 18.0,
-              fontWeight: FontWeight.bold,
-              color: Colors.black,
-            )
+              style: TextStyle(
+                fontSize: 18.0,
+                fontWeight: FontWeight.bold,
+                color: Colors.black,
+              )
           ),
           centerTitle: true,
           leading: BackButton(
@@ -56,10 +54,10 @@ class _VideoState extends State<Video> {
         Column(
             children: [
               Container(
-                margin: EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 0),
-                child: Image(
-                  image: AssetImage('assets/Závěrečný snímek.jpg'),
-                )
+                  margin: EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 0),
+                  child: Image(
+                    image: AssetImage('assets/Závěrečný snímek.jpg'),
+                  )
               ),
               Card(
                   margin: const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 0.0),

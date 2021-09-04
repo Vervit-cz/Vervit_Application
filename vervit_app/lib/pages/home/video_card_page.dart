@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:vervit_app/components/video_card.dart';
+import 'package:vervit_app/database/video_card.dart';
 import 'package:vervit_app/pages/home/card_navigation.dart';
-import 'package:vervit_app/pages/home/card_video.dart';
 
 
 class VideoCardPage extends StatefulWidget {
@@ -23,19 +22,10 @@ class _VideoCardPageState extends State<VideoCardPage> {
           shrinkWrap: true,
           itemBuilder: (BuildContext context, index){
             return Container(
-              margin: const EdgeInsets.fromLTRB(8.0, 8.0, 8.0, 0),
               child: Padding(
-                padding: const EdgeInsets.all(12.0),
-                child: VideoCard(
-                  name: widget.page.videos[index]['name'],
-                  description: widget.page.videos[index]['description'],
-                  onTap: () {
-                    VideoChooser.chooseVideo(index, widget.page);
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => CardVideo()));
-                  },
-                ),
-              ),
-            );
+                padding: const EdgeInsets.all(5.0),
+                child: VideoCard(video: widget.page.videos[index]),
+            ));
           },
         separatorBuilder: (BuildContext context, int index) => const Divider(),
       ),

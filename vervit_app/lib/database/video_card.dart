@@ -13,39 +13,41 @@ class VideoCard extends StatelessWidget {
     return Container(
       margin: EdgeInsets.fromLTRB(10, 5, 10, 5),
       child: OutlinedButton(
-          onPressed: () {
-            VideoPlayer.playVideo(video.number);
-            Navigator.push(context, MaterialPageRoute(builder: (context) => Video()));
-          },
-          style: ButtonStyle(
-              backgroundColor: MaterialStateProperty.all<Color>(kColorTeal),
-              shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-                  RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(5.0),
-                      side: BorderSide(color: Colors.black)
-                  )
-              )
-          ),
+        onPressed: () {
+          VideoPlayer.playVideo(video.number);
+          Navigator.push(context, MaterialPageRoute(builder: (context) => Video()));
+        },
+        style: ButtonStyle(
+            backgroundColor: MaterialStateProperty.all<Color>(Colors.white),
+            shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(5.0),
+                    side: BorderSide(color: Colors.black)
+                )
+            )
+        ),
         child: Padding(
-          padding: const EdgeInsets.all(8.0),
+          padding: const EdgeInsets.fromLTRB(10.0, 20.0, 10.0, 20.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               Text(
                 video.name,
                 style: TextStyle(
-                  fontSize: 20.0,
+                  fontSize: 18.0,
+                  fontWeight: FontWeight.bold,
                   color: Colors.black,
                 ),
               ),
               Divider(
-                height: 30.0,
-                thickness: 3.0,
+                height: 20.0,
+                thickness: 2.0,
+                color: kColorTeal,
               ),
               Text(
                 video.description,
                 style: TextStyle(
-                  fontSize: 16.0,
+                  fontSize: 15.0,
                   color: Colors.black,
                 ),
               ),

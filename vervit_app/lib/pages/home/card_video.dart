@@ -11,7 +11,7 @@ class VideoChooser {
     video = index;
     page = p;
     controller = YoutubePlayerController(
-      initialVideoId: YoutubePlayer.convertUrlToId(page.videos[video]['url']),
+      initialVideoId: YoutubePlayer.convertUrlToId(page.videos[video].videoID),
       flags: YoutubePlayerFlags(
         autoPlay: true,
         mute: true,
@@ -32,7 +32,7 @@ class _CardVideoState extends State<CardVideo> {
         backgroundColor: Colors.grey[200],
         appBar: _isFullScreen ? null : AppBar(
           backgroundColor: VideoChooser.page.pageColor,
-          title: Text(VideoChooser.page.videos[VideoChooser.video]['name'], style: TextStyle(color: Colors.black),),
+          title: Text(VideoChooser.page.videos[VideoChooser.video].name, style: TextStyle(color: Colors.black),),
           centerTitle: true,
         ),
         body: YoutubePlayerBuilder(
@@ -57,7 +57,7 @@ class _CardVideoState extends State<CardVideo> {
                   Container(
                       margin: const EdgeInsets.fromLTRB(16.0, 0.0, 16.0, 0.0),
                       child: Text(
-                            VideoChooser.page.videos[VideoChooser.video]['description'],
+                            VideoChooser.page.videos[VideoChooser.video].description,
                             style: TextStyle(
                               fontSize: 18.0,
                               color: Colors.grey[800],

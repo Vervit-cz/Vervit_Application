@@ -2,13 +2,15 @@ import 'package:vervit_app/components/reusable_card.dart';
 import 'package:flutter/material.dart';
 import 'package:vervit_app/constants.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:vervit_app/database/video.dart';
+import 'package:vervit_app/database/videodatabase.dart';
 
 class CardPage{
   String pageName;
   String heading;
   Color pageColor;
   List<Card> cards;
-  List<Map<String, String>> videos;
+  List<VideoObject> videos;
   CardPage({this.pageName, this.cards, this.heading, this.pageColor, this.videos}){
     this.pageName = pageName;
     this.cards = cards;
@@ -29,6 +31,7 @@ class Card{
     this.navigateTo = navigateTo;
   }
 }
+
 
 var homePages = [
   CardPage(
@@ -110,8 +113,8 @@ var homePages = [
         navigateTo: 'email',
       ),
       Card(
-        text: 'Internetové prohlížeče',
-        icon: FontAwesomeIcons.safari,
+        text: 'Vyhledávání na internetu',
+        icon: FontAwesomeIcons.search,
         navigateTo: 'browser',
       ),
     ],
@@ -122,150 +125,56 @@ var homePages = [
     pageName: 'iphone basics',
     pageColor: kColorLightGreen,
     cards:[],
-    videos: [
-        {
-          'name': 'Nastavení',
-          'url': '',
-          'description': 'add description',
-        },
-    ],
+    videos: createVideosList('iphone iphonu'),
   ),
   CardPage(
     pageName: 'iphone apps',
     pageColor: kColorLightGreen,
     cards:[],
-    videos: [
-        {
-          'name': 'Telefon',
-          'url': '',
-          'description': 'add description',
-        },
-    ],
+    videos: createVideosList('aplikace iphone'),
   ),
   CardPage(
     pageName: 'android basics',
     pageColor: kColorLightGreen,
     cards:[],
-    videos: [
-      {
-        'name': 'Nastavení',
-        'url': '',
-        'description': 'add description',
-      },
-    ],
+    videos: createVideosList('android androidu androidem'),
   ),
   CardPage(
     pageName: 'android apps',
     pageColor: kColorLightGreen,
     cards:[],
-    videos: [
-      {
-        'name': 'Telefon',
-        'url': '',
-        'description': 'add description',
-      },
-    ],
+    videos: createVideosList('aplikace android'),
   ),
   CardPage(
     pageName: 'computer basics',
     pageColor: kColorTeal,
     cards:[],
-    videos: [
-      {
-          'name': 'Vypínání počítače',
-          'url': '',
-          'description': 'add description',
-      },
-      {
-        'name': 'Start menu',
-        'url': '',
-        'description': 'add description',
-      },
-      {
-        'name': 'Práce s myší',
-        'url': '',
-        'description': 'add description',
-      },
-      {
-        'name': 'Práce s klávesnicí',
-        'url': '',
-        'description': 'add description',
-      },
-      {
-        'name': 'Práce s touchpadem',
-        'url': '',
-        'description': 'add description',
-      },
-      {
-        'name': 'Základní nastavení',
-        'url': '',
-        'description': 'add description',
-      },
-      {
-        'name': 'Spodní lišta',
-        'url': '',
-        'description': 'add description',
-      },
-      {
-        'name': 'Práce se soubory',
-        'url': '',
-        'description': 'add description',
-      },
-      {
-        'name': 'Práce se složkami',
-        'url': '',
-        'description': 'add description',
-      },
-    ],
+    videos: createVideosList('počítač počítačem'),
   ),
   CardPage(
     pageName: 'social media',
     pageColor: kColorYellow,
     cards:[],
-    videos: [
-      {
-        'name': 'Facebook',
-        'url': '',
-        'description': 'add description',
-      },
-    ],
+    videos: createVideosList('sociální sítě'),
   ),
   CardPage(
     pageName: 'security',
     pageColor: kColorRed,
     cards:[],
-    videos: [
-      {
-        'name': 'Jak si nastavit bezpečné heslo',
-        'url': '',
-        'description': 'add description',
-      },
-    ],
+    videos: createVideosList('bezpečnost'),
   ),
   CardPage(
     pageName: 'email',
     pageColor: kColorTeal,
     cards:[],
-    videos: [
-      {
-        'name': 'Sdílet se všemi',
-        'url': '',
-        'description': 'add description',
-      },
-    ],
+    videos: createVideosList('email emailovou'),
   ),
   CardPage(
     pageName: 'browser',
     pageColor: kColorTeal,
     cards:[],
-    videos: [
-      {
-        'name': 'Google',
-        'url': '',
-        'description': 'add description',
-      },
-    ],
-  ),
+    videos: createVideosList('vyhledat Google stránky'),
+),
 ];
 
 CardPage findNavigationRoute(String navigateTo){
@@ -278,3 +187,12 @@ CardPage findNavigationRoute(String navigateTo){
   return match;
 }
 
+List<VideoObject> createVideosList(String searchTerm){
+  List<VideoObject> list = Database.orderedSearchList(searchTerm);
+  if (list.isNotEmpty){
+    return list;
+  }
+  else{
+    return [];
+  }
+}

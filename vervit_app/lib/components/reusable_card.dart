@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+// ignore: must_be_immutable
 class ReusableCard extends StatelessWidget {
   ReusableCard({this.text, this.icon, this.navigateTo, this.onTap, this.color, this.textSize, this.iconSize});
   final String navigateTo;
