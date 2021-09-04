@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:material_floating_search_bar/material_floating_search_bar.dart';
 import 'package:vervit_app/database/videodatabase.dart';
+import 'package:vervit_app/database/video_card.dart';
 
 class SearchPage extends StatefulWidget {
   @override
@@ -212,7 +213,34 @@ class SearchResultsListView extends StatelessWidget {
 
     final fsb = FloatingSearchBar.of(context);
 
-    return ListView(
+    if ((Database.orderedSearchList(searchTerm)).isNotEmpty)
+    {
+      return ListView(
+          padding: EdgeInsets.only(top: 60),
+          children: (Database.orderedSearchList(searchTerm)).map((x) =>
+              VideoCard(video: x)).toList()
+      );
+    }
+    else
+    {
+      return Center(
+        child: Container(
+          padding: EdgeInsets.all(60.0),
+          child: Text(
+              "Nic nebylo nalezeno",
+              style: TextStyle(
+                fontSize:30.0,
+              )
+          ),
+        ),
+      );
+    }
+
+  }
+}
+
+/*
+return ListView(
       padding: EdgeInsets.only(top: 60),
       children: List.generate(
         50,
@@ -222,6 +250,5 @@ class SearchResultsListView extends StatelessWidget {
         ),
       ),
     );
-  }
-}
+ */
 

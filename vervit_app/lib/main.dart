@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:vervit_app/constants.dart';
+import 'package:vervit_app/database/videodatabase.dart';
 import 'package:vervit_app/pages/home_page.dart';
 import 'package:vervit_app/pages/tracks_page.dart';
 import 'package:vervit_app/pages/faqs_page.dart';
 import 'package:vervit_app/pages/search_page.dart';
+import 'package:vervit_app/pages/drawer/drawer.dart';
 import 'pages/splash_screen.dart';
 
 void main() {
@@ -25,6 +27,9 @@ void main() {
       '/home':(context) => Home(),
     },
   ));
+
+  Database.createDatabase();
+
 }
 
 class Home extends StatefulWidget {
@@ -56,76 +61,7 @@ class _HomeState extends State<Home> {
         title: Text('VERVIT', style: TextStyle(color: Colors.black),),
       ),
       drawer: Drawer(
-        child: Column(
-          children: <Widget> [
-            DrawerHeader(
-              child: Text(
-                'Contacts',
-                style: TextStyle(
-                  fontSize: 20.0,
-                  color: Colors.black,
-                )
-              ),
-            ),
-            Card(
-              margin: const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 0.0),
-              child: Padding(
-                padding: const EdgeInsets.all(12.0),
-                child: Row(
-                  children: <Widget> [
-                    Icon(
-                      Icons.accessibility_new_sharp
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Text(
-                        'Vervit',
-                      ),
-                    ),
-                  ]
-                ),
-              )
-            ),
-            Card(
-              margin: const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 0.0),
-              child: Padding(
-                padding: const EdgeInsets.all(12.0),
-                child: Row(
-                  children: <Widget> [
-                    Icon(
-                      Icons.mail_outline,
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Text(
-                        'vervitpodpora@gmail.com',
-                      ),
-                    ),
-                  ]
-                ),
-              )
-            ),
-            Card(
-              margin: const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 0.0),
-              child: Padding(
-                padding: const EdgeInsets.all(12.0),
-                child: Row(
-                  children: <Widget> [
-                    Icon(
-                      Icons.settings_ethernet_outlined,
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Text(
-                        'www.vervit.cz',
-                      ),
-                    ),
-                  ]
-                ),
-              )
-            ),
-          ]
-        )
+        child: DrawerContents(),
       ),
       body: _widgetOptions.elementAt(_selectedIndex),
       bottomNavigationBar: BottomNavigationBar(

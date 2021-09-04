@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'FAQs/qna.dart';
 import 'FAQs/qna_card.dart';

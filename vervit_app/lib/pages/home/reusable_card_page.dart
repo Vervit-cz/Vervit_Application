@@ -3,8 +3,6 @@ import 'package:vervit_app/components/reusable_card.dart';
 import 'package:vervit_app/pages/home/card_navigation.dart';
 import 'package:vervit_app/constants.dart';
 import 'video_card_page.dart';
-
-
 class CardPageWidget extends StatelessWidget {
   final CardPage page;
   final String prevCardName;

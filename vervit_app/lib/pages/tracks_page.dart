@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:vervit_app/constants.dart';
 import 'package:vervit_app/pages/tracks/track.dart';
 import 'package:vervit_app/navigation/tracks_navigation.dart';
 
