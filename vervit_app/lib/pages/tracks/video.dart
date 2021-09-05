@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:vervit_app/pages/tracks/track.dart';
 import 'package:vervit_app/navigation/tracks_navigation.dart';
-import 'package:vervit_app/components/video_card.dart';
+import 'card.dart';
 
 
 class VideoChooser {
@@ -66,7 +66,7 @@ class _VideoState extends State<Video> {
             child: Padding(
               padding: const EdgeInsets.all(12.0),
               child: Text(
-                (VideoChooser.video < Track.videos.length - 1) ? 'Následuje video:': 'Zde tento kurz končí. Kliknutím na tlačítko níže se vrátíte na hlavní stránku tohoto kurzu.',
+                (VideoChooser.video < Track.videos.length - 1) ? 'Kliknutím na tlačítko níže můžete pokračovat na další video.': 'Zde tento kurz končí. Kliknutím na šipku v levém horním rohu se vrátíte na hlavní stránku.',
                 style: TextStyle(
                   fontSize: 18.0,
                   fontWeight: FontWeight.bold,
@@ -85,7 +85,8 @@ class _VideoState extends State<Video> {
                 child: VideoCard(
                   name: Track.videos[VideoChooser.video + 1]['name'],
                   description: Track.videos[VideoChooser.video + 1]['description'], 
-                  onTap: () { 
+                  color: Track.color,
+                  onPressed: () { 
                     VideoChooser.chooseVideo(VideoChooser.video + 1);
                     Navigator.pop(context);
                     Navigator.push(context, MaterialPageRoute(builder: (context) => Video()));
@@ -93,27 +94,7 @@ class _VideoState extends State<Video> {
                   },
                 ),
               ),
-            ) :
-            GestureDetector(
-              child: Card(
-                margin: const EdgeInsets.all(16.0),
-                child: Padding(
-                  padding: const EdgeInsets.all(12.0),
-                  child: Text(
-                    tracks[Track.index]['name'],
-                    style: TextStyle(
-                      fontSize: 18.0,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.black
-                    ),
-                  )
-                )
-              ),
-              onTap: () {
-                Navigator.pop(context);
-                _ended = false;
-              }
-            ),
+            ) : null,
           ),
         ]
       ) : 

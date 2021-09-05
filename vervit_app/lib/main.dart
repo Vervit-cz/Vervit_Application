@@ -70,25 +70,25 @@ class _HomeState extends State<Home> {
             icon: Icon(
               Icons.home,
             ),
-            label: 'Home',
+            label: 'Domů',
           ),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.track_changes,
             ),
-            label: 'Tracks',
+            label: 'Kurzy',
           ),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.search,
             ),
-            label: 'Search',
+            label: 'Hledání',
           ),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.question_answer,
             ),
-            label: 'FAQs',
+            label: 'Podpora',
           ),
         ],
         currentIndex: _selectedIndex,

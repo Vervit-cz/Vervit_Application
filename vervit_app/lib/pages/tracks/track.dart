@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:vervit_app/constants.dart';
 import 'package:vervit_app/pages/tracks/video.dart';
 import 'package:vervit_app/navigation/tracks_navigation.dart';
-import 'package:vervit_app/components/video_card.dart';
+import 'card.dart';
 
 class Track {
   static int index = 0;
@@ -87,13 +87,13 @@ class _TrackWidgetState extends State<TrackWidget> {
               shrinkWrap: true,
               itemBuilder: (BuildContext context, index){
                 return Container(
-                  margin: const EdgeInsets.fromLTRB(8.0, 8.0, 8.0, 0),
                   child: Padding(
                     padding: const EdgeInsets.all(12.0),
                     child: VideoCard(
                       name: Track.videos[index]['name'],
                       description: Track.videos[index]['description'],
-                      onTap: () {
+                      color: Track.color,
+                      onPressed: () {
                         VideoChooser.chooseVideo(index);
                         Navigator.push(context, MaterialPageRoute(builder: (context) => Video()));
                       },
