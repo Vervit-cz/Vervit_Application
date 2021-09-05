@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:vervit_app/pages/tracks/track.dart';
-import 'package:vervit_app/navigation/tracks_navigation.dart';
 import 'card.dart';
 
 

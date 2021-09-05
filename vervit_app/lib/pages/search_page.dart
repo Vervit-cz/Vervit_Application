@@ -86,10 +86,10 @@ class _SearchPageState extends State<SearchPage> {
         transition: CircularFloatingSearchBarTransition(),
         physics: BouncingScrollPhysics(),
         title: Text(
-          selectedTerm ?? 'The Search App',
+          selectedTerm ?? 'Vyhledávač',
           style: Theme.of(context).textTheme.headline6,
         ),
-        hint: 'Search and find out...',
+        hint: 'Zadejte název videa nebo téma...',
         actions: [
           FloatingSearchBarAction.searchToClear(),
         ],
@@ -120,7 +120,7 @@ class _SearchPageState extends State<SearchPage> {
                       width: double.infinity,
                       alignment: Alignment.center,
                       child: Text(
-                        'Start searching',
+                        'Začněte vyhledávat v databázi videí',
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
                         style: Theme.of(context).textTheme.caption,
@@ -203,7 +203,7 @@ class SearchResultsListView extends StatelessWidget {
               size: 64,
             ),
             Text(
-              'Start searching',
+              'Začněte vyhledávat',
               style: Theme.of(context).textTheme.headline5,
             )
           ],

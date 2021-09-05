@@ -19,7 +19,7 @@ class QuoteCard extends StatelessWidget {
                 qna.question,
                 style: TextStyle(
                   fontSize: 20.0,
-                  color: Colors.grey[600],
+                  color: Colors.black,
                 ),
               ),
               Divider(
