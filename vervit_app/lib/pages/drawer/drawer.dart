@@ -160,7 +160,7 @@ class DrawerContentsPageState extends State<DrawerContents> {
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Text(
-                            'YoutTube - Vervit',
+                            'YouTube - Vervit',
                             style: TextStyle(
                               fontSize: 15.0,
                               color: Colors.black,
