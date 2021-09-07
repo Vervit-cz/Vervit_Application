@@ -81,7 +81,7 @@ class Database
   {
     List<String> keywords;
     keywords = (description.toLowerCase().replaceAll(',','').replaceAll('.','').split(' '));
-    keywords.addAll(name.toLowerCase().split(' '));
+    keywords.addAll(name.toLowerCase().replaceAll(',','').replaceAll('.','').split(' '));
     keywords.addAll(extraKeywords.toLowerCase().split(' '));
     return keywords;
   }

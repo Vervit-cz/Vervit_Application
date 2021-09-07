@@ -18,31 +18,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		CebF3HcXyjcc0YMMcx0nE6m7fVA=
+		s/KAnUTy2YskehaAd2KuF8XU5U0=
 		</data>
 		<key>Modules/flutter_inappwebview.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		jXnIm3qqXxor6F9Jr7C0mzDvZVg=
+		rgyG1bvZgK2gTtdJ/2prKc2zG58=
 		</data>
 		<key>Modules/flutter_inappwebview.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		jXnIm3qqXxor6F9Jr7C0mzDvZVg=
+		rgyG1bvZgK2gTtdJ/2prKc2zG58=
 		</data>
 		<key>Modules/flutter_inappwebview.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		vl30TgyhIlz5ZemMANbmLcisiDw=
+		11/3szWV8fGlCOUl1PTh2XjINJ0=
 		</data>
 		<key>Modules/flutter_inappwebview.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SXU8UuQvMGOwcRssnOhMLS/XYPk=
+		vNRkxuFu9wz91VhXa6ZJ3cotaZw=
 		</data>
 		<key>Modules/flutter_inappwebview.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		vl30TgyhIlz5ZemMANbmLcisiDw=
+		11/3szWV8fGlCOUl1PTh2XjINJ0=
 		</data>
 		<key>Modules/flutter_inappwebview.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		SXU8UuQvMGOwcRssnOhMLS/XYPk=
+		vNRkxuFu9wz91VhXa6ZJ3cotaZw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,25 +54,21 @@
 		</data>
 		<key>WebView.storyboardc/Myh-pL-l6f-view-1n8-5e-oxa.nib</key>
 		<data>
-		yEsj9BQ07PbVdi3TF0p5zpeQIhE=
+		1Ak4ALAdSRDyzRvjVju/FlBKWDc=
 		</data>
 		<key>WebView.storyboardc/navController.nib</key>
 		<data>
-		1wc1O6UkFda83DPnHQWq8xQPLd8=
+		OlspUQcBkJnWvd93i886SZ9r0wg=
 		</data>
 		<key>WebView.storyboardc/viewController.nib</key>
 		<data>
-		BxNPd/2/RNUPij0lxSMHFZMy4+0=
+		+Mqm5vijNUyzav4NTBL9o1lIfvY=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Headers/InAppWebViewFlutterPlugin.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7YJWrBXLzL4dnJ6HFlQrrBneDow=
-			</data>
 			<key>hash2</key>
 			<data>
 			CEsFYWzMrXKfFSj89XzDyVkOT6Wplzb7bEVkiguNMmk=
@@ -80,10 +76,6 @@
 		</dict>
 		<key>Headers/flutter_inappwebview-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7RkDNCmBIkrOwXlA5ZLe9i0KxU8=
-			</data>
 			<key>hash2</key>
 			<data>
 			AdJovTN9TjVWJQbfW4Q/8NY0Y/RvCFaXpre/iCTflKI=
@@ -91,10 +83,6 @@
 		</dict>
 		<key>Headers/flutter_inappwebview-umbrella.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qBMMjVdJpKm0ij1+O3jqsHVdDZI=
-			</data>
 			<key>hash2</key>
 			<data>
 			K8jdJevojOX04gxEmZctjCutNvLHpT17Ju82ehCr6bE=
@@ -102,76 +90,48 @@
 		</dict>
 		<key>Modules/flutter_inappwebview.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jXnIm3qqXxor6F9Jr7C0mzDvZVg=
-			</data>
 			<key>hash2</key>
 			<data>
-			GOaHqNc0/9sxBVP2+V0jEfD0tj+Gr2klcQ/2jDIy5mw=
+			rpuvfYHuUxgni+1n1CvF2DIHb2bwV2Jv2C1y59Uv5pU=
 			</data>
 		</dict>
 		<key>Modules/flutter_inappwebview.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jXnIm3qqXxor6F9Jr7C0mzDvZVg=
-			</data>
 			<key>hash2</key>
 			<data>
-			GOaHqNc0/9sxBVP2+V0jEfD0tj+Gr2klcQ/2jDIy5mw=
+			rpuvfYHuUxgni+1n1CvF2DIHb2bwV2Jv2C1y59Uv5pU=
 			</data>
 		</dict>
 		<key>Modules/flutter_inappwebview.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vl30TgyhIlz5ZemMANbmLcisiDw=
-			</data>
 			<key>hash2</key>
 			<data>
-			kMcq0sDrP/RcKh5APxP652jbCFsCm+00fb5kt1pIsfo=
+			EX4+tcbO36gZCE8HxVGY2ScCv0g9AQZXt0pmoy9gdrg=
 			</data>
 		</dict>
 		<key>Modules/flutter_inappwebview.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SXU8UuQvMGOwcRssnOhMLS/XYPk=
-			</data>
 			<key>hash2</key>
 			<data>
-			Ipr8vitbUnKAEWmvIooHFavOwy8khgeZlUJzA5hCKOk=
+			vbPntkZTqzzMb7hjzaTpSQbSz9AxP9q/LfGDJ8xyq7I=
 			</data>
 		</dict>
 		<key>Modules/flutter_inappwebview.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vl30TgyhIlz5ZemMANbmLcisiDw=
-			</data>
 			<key>hash2</key>
 			<data>
-			kMcq0sDrP/RcKh5APxP652jbCFsCm+00fb5kt1pIsfo=
+			EX4+tcbO36gZCE8HxVGY2ScCv0g9AQZXt0pmoy9gdrg=
 			</data>
 		</dict>
 		<key>Modules/flutter_inappwebview.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SXU8UuQvMGOwcRssnOhMLS/XYPk=
-			</data>
 			<key>hash2</key>
 			<data>
-			Ipr8vitbUnKAEWmvIooHFavOwy8khgeZlUJzA5hCKOk=
+			vbPntkZTqzzMb7hjzaTpSQbSz9AxP9q/LfGDJ8xyq7I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1ZB9VhTtg8JXfsB3vO/IjUCFO5I=
-			</data>
 			<key>hash2</key>
 			<data>
 			GcqGo5vz6o0etEdj8f4WJBRzD2pkxTgfDAaj2Qu+Pe0=
@@ -179,10 +139,6 @@
 		</dict>
 		<key>WebView.storyboardc/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Jy29WF5V3X3M6f6G20Q5Adf/5ME=
-			</data>
 			<key>hash2</key>
 			<data>
 			KHCcIMSR/wfVkGHOiPdC9Uu240k7G+mdZF80IbA2mvI=
@@ -190,35 +146,23 @@
 		</dict>
 		<key>WebView.storyboardc/Myh-pL-l6f-view-1n8-5e-oxa.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yEsj9BQ07PbVdi3TF0p5zpeQIhE=
-			</data>
 			<key>hash2</key>
 			<data>
-			eQw5T13CuqQN7vjfMhrKZ45kW8u7JOIe4lD3K0SB3cM=
+			F09pqHPSn/VJ5OnnDyrZ2PB6ptqZ6ZIR5vR1DR85khY=
 			</data>
 		</dict>
 		<key>WebView.storyboardc/navController.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1wc1O6UkFda83DPnHQWq8xQPLd8=
-			</data>
 			<key>hash2</key>
 			<data>
-			2TzFj5XuYtvRb7TJ2j8jkW146GtRuK3PsnllM0IBIaA=
+			UwTpyqPvSBOBtG6JTZKjJc5pugNJL1G79ERkSuscOdA=
 			</data>
 		</dict>
 		<key>WebView.storyboardc/viewController.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BxNPd/2/RNUPij0lxSMHFZMy4+0=
-			</data>
 			<key>hash2</key>
 			<data>
-			l5c/D0Az4+TX/8nQLF7NMCpLKz61cSBUyYOhSQiJpW8=
+			OaWUO4cPGrSzwkTDvE2PyT4SuEM2jopKbiOd/oRo3vY=
 			</data>
 		</dict>
 	</dict>
