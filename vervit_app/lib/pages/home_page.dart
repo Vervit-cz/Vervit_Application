@@ -52,7 +52,7 @@ class _HomePageState extends State<HomePage> {
               children: [
                 Expanded(
                   child: ReusableCard(
-                    text: 'Práci s \nPočítačem',
+                    text: 'Práci s \npočítačem',
                     icon: FontAwesomeIcons.desktop,
                     color: kColorTeal,
                     textSize: 27.0,
@@ -71,7 +71,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 Expanded(
                   child: ReusableCard(
-                    text: 'Práci s \nMobilem',
+                    text: 'Práci s \nmobilem',
                     icon: FontAwesomeIcons.mobileAlt,
                     color: kColorLightGreen,
                     textSize: 27.0,
@@ -97,7 +97,7 @@ class _HomePageState extends State<HomePage> {
               children: [
                 Expanded(
                   child: ReusableCard(
-                    text: 'Sociální Sítě',
+                    text: 'Sociální sítě',
                     icon: FontAwesomeIcons.users,
                     color: kColorYellow,
                     textSize: 27.0,
@@ -116,7 +116,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 Expanded(
                   child: ReusableCard(
-                    text: 'Bezpečnost \nna Internetu',
+                    text: 'Bezpečnost \nna internetu',
                     icon: FontAwesomeIcons.userLock,
                     color: kColorRed,
                     textSize: 27.0,
