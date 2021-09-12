@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:material_floating_search_bar/material_floating_search_bar.dart';
+import 'package:vervit_app/constants.dart';
 import 'package:vervit_app/database/videodatabase.dart';
 import 'package:vervit_app/database/video_card.dart';
 
@@ -218,7 +219,7 @@ class SearchResultsListView extends StatelessWidget {
       return ListView(
           padding: EdgeInsets.only(top: 60),
           children: (Database.orderedSearchList(searchTerm)).map((x) =>
-              VideoCard(video: x)).toList()
+              VideoCard(video: x, color: kColorTeal,)).toList()
       );
     }
     else

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'qna.dart';
+import 'package:vervit_app/constants.dart';
 
 class QuoteCard extends StatelessWidget {
 
@@ -23,8 +24,9 @@ class QuoteCard extends StatelessWidget {
                 ),
               ),
               Divider(
-                  height: 30.0,
-                  thickness: 3.0,
+                height: 30.0,
+                thickness: 3.0,
+                color: kColorTeal,
               ),
               Text(
                 qna.answer,

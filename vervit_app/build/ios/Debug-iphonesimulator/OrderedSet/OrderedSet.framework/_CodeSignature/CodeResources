@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/OrderedSet-Swift.h</key>
 		<data>
-		C8VhIcLjRRBeaADx9cSzcFX88Vk=
+		WQrI6ICgVwbcrft0L8y539KAEss=
 		</data>
 		<key>Headers/OrderedSet-umbrella.h</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/OrderedSet.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		vSNQ43JjzbzUXCidar+svIt8A88=
+		MoES5iDhuVDeueWqfVe7FBvtkQw=
 		</data>
 		<key>Modules/OrderedSet.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		vSNQ43JjzbzUXCidar+svIt8A88=
+		MoES5iDhuVDeueWqfVe7FBvtkQw=
 		</data>
 		<key>Modules/OrderedSet.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Modules/OrderedSet.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ReetwY71kmRcQJvbYlkozc/s3ZU=
+		TyklDWb2trJjH3BY3WY90f5b94w=
 		</data>
 		<key>Modules/OrderedSet.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Modules/OrderedSet.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		ReetwY71kmRcQJvbYlkozc/s3ZU=
+		TyklDWb2trJjH3BY3WY90f5b94w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -99,11 +99,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			C8VhIcLjRRBeaADx9cSzcFX88Vk=
+			WQrI6ICgVwbcrft0L8y539KAEss=
 			</data>
 			<key>hash2</key>
 			<data>
-			khKc6hhEYXEG0B6GGJg0M/wDdLi7gaCZHXRfmTLN3Xs=
+			6Do5F0cNktLP8eNoc/uKMlRBjZt6N5ZnPFrL2eHYrks=
 			</data>
 		</dict>
 		<key>Headers/OrderedSet-umbrella.h</key>
@@ -165,22 +165,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vSNQ43JjzbzUXCidar+svIt8A88=
+			MoES5iDhuVDeueWqfVe7FBvtkQw=
 			</data>
 			<key>hash2</key>
 			<data>
-			dT/GS/jQP4gCggdW2W5EnHJNpqBhf5S5czb/8nT5Z7Y=
+			4en0baxL4oqvQpRSNFN7Ryx4n1DGALLiFHTHug1Zvgk=
 			</data>
 		</dict>
 		<key>Modules/OrderedSet.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vSNQ43JjzbzUXCidar+svIt8A88=
+			MoES5iDhuVDeueWqfVe7FBvtkQw=
 			</data>
 			<key>hash2</key>
 			<data>
-			dT/GS/jQP4gCggdW2W5EnHJNpqBhf5S5czb/8nT5Z7Y=
+			4en0baxL4oqvQpRSNFN7Ryx4n1DGALLiFHTHug1Zvgk=
 			</data>
 		</dict>
 		<key>Modules/OrderedSet.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -286,11 +286,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ReetwY71kmRcQJvbYlkozc/s3ZU=
+			TyklDWb2trJjH3BY3WY90f5b94w=
 			</data>
 			<key>hash2</key>
 			<data>
-			e4BnhfyBEBRcgFF7SogGlwwDIVPE0GTB1eGgZK7AFho=
+			nxJb08ftC0K8By6F7dnjNP/7D9y3yGQcwAOg0rMcUDU=
 			</data>
 		</dict>
 		<key>Modules/OrderedSet.swiftmodule/x86_64.swiftdoc</key>
@@ -308,11 +308,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ReetwY71kmRcQJvbYlkozc/s3ZU=
+			TyklDWb2trJjH3BY3WY90f5b94w=
 			</data>
 			<key>hash2</key>
 			<data>
-			e4BnhfyBEBRcgFF7SogGlwwDIVPE0GTB1eGgZK7AFho=
+			nxJb08ftC0K8By6F7dnjNP/7D9y3yGQcwAOg0rMcUDU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

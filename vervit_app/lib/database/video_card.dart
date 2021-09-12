@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'video.dart';
-import 'package:vervit_app/constants.dart';
 import 'package:vervit_app/videoplayer/videoplayer.dart';
 
 class VideoCard extends StatelessWidget {
 
   final VideoObject video;
-  VideoCard({ this.video });
+  final Color color;
+  VideoCard({ this.video, this.color });
 
   @override
   Widget build(BuildContext context) {
@@ -42,7 +42,7 @@ class VideoCard extends StatelessWidget {
               Divider(
                 height: 20.0,
                 thickness: 2.0,
-                color: kColorTeal,
+                color: color,
               ),
               Text(
                 video.description,

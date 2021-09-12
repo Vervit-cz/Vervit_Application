@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:vervit_app/constants.dart';
 import 'package:vervit_app/interactions/url_launcher.dart';
@@ -42,7 +43,7 @@ class DrawerContentsPageState extends State<DrawerContents> {
                   child: Row(
                       children: <Widget> [
                         Icon(
-                            Icons.facebook,
+                          FontAwesomeIcons.facebook,
                             color: Colors.black,
                             size: 30,
                         ),
@@ -65,7 +66,7 @@ class DrawerContentsPageState extends State<DrawerContents> {
             margin: const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 0.0),
             child: ElevatedButton(
               onPressed: () {
-
+                Interactions.launchURL("mailto:vervit@gmail.com?subject=Podpora&body=");
               },
               style: ButtonStyle(
                   backgroundColor: MaterialStateProperty.all<Color>(kColorYellow),

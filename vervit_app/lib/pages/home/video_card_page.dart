@@ -24,7 +24,7 @@ class _VideoCardPageState extends State<VideoCardPage> {
             return Container(
               child: Padding(
                 padding: const EdgeInsets.all(5.0),
-                child: VideoCard(video: widget.page.videos[index]),
+                child: VideoCard(video: widget.page.videos[index], color: widget.page.pageColor,),
             ));
           },
         separatorBuilder: (BuildContext context, int index) => const Divider(),

@@ -125,55 +125,55 @@ var homePages = [
     pageName: 'iphone basics',
     pageColor: kColorLightGreen,
     cards:[],
-    videos: createVideosList('iphone iphonu'),
+    videos: createVideosList('iphone iphonu', 'iphone iphonu'),
   ),
   CardPage(
     pageName: 'iphone apps',
     pageColor: kColorLightGreen,
     cards:[],
-    videos: createVideosList('aplikace iphone'),
+    videos: createVideosList('aplikace', 'iphone'),
   ),
   CardPage(
     pageName: 'android basics',
     pageColor: kColorLightGreen,
     cards:[],
-    videos: createVideosList('android androidu androidem'),
+    videos: createVideosList('android', 'android'),
   ),
   CardPage(
     pageName: 'android apps',
     pageColor: kColorLightGreen,
     cards:[],
-    videos: createVideosList('aplikace android'),
+    videos: createVideosList('aplikace', 'android'),
   ),
   CardPage(
     pageName: 'computer basics',
     pageColor: kColorTeal,
     cards:[],
-    videos: createVideosList('počítač počítačem'),
+    videos: createVideosList('počítač počítačem', 'počítač počítačem'),
   ),
   CardPage(
     pageName: 'social media',
     pageColor: kColorYellow,
     cards:[],
-    videos: createVideosList('sociální sítě'),
+    videos: createVideosList('sociální sítě', 'sociální sítě'),
   ),
   CardPage(
     pageName: 'security',
     pageColor: kColorRed,
     cards:[],
-    videos: createVideosList('bezpečnost'),
+    videos: createVideosList('bezpečnost', 'heslo'),
   ),
   CardPage(
     pageName: 'email',
     pageColor: kColorTeal,
     cards:[],
-    videos: createVideosList('email emailovou'),
+    videos: createVideosList('email emailovou', 'email emailovou'),
   ),
   CardPage(
     pageName: 'browser',
     pageColor: kColorTeal,
     cards:[],
-    videos: createVideosList('vyhledat Google stránky'),
+    videos: createVideosList('vyhledat Google stránky', 'vyhledat Google stránky'),
 ),
 ];
 
@@ -187,8 +187,9 @@ CardPage findNavigationRoute(String navigateTo){
   return match;
 }
 
-List<VideoObject> createVideosList(String searchTerm){
+List<VideoObject> createVideosList(String searchTerm, String searchSecondTerm){
   List<VideoObject> list = Database.orderedSearchList(searchTerm);
+  list = Database.orderedSearchList(searchSecondTerm);
   if (list.isNotEmpty){
     return list;
   }
