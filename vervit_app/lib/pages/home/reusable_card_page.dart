@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:vervit_app/components/reusable_card.dart';
+import 'reusable_card.dart';
 import 'package:vervit_app/pages/home/card_navigation.dart';
 import 'package:vervit_app/constants.dart';
 import 'video_card_page.dart';

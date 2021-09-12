@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:vervit_app/components/reusable_card.dart';
+import 'home/reusable_card.dart';
 import 'package:vervit_app/constants.dart';
 import 'package:vervit_app/pages/home/card_navigation.dart';
 import 'package:vervit_app/pages/home/reusable_card_page.dart';

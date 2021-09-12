@@ -1,4 +1,4 @@
-import 'package:vervit_app/components/reusable_card.dart';
+import 'reusable_card.dart';
 import 'package:flutter/material.dart';
 import 'package:vervit_app/constants.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -161,7 +161,7 @@ var homePages = [
     pageName: 'security',
     pageColor: kColorRed,
     cards:[],
-    videos: createVideosList('bezpečnost', 'heslo'),
+    videos: createVideosList('bezpečnost','bezpečnost' ),
   ),
   CardPage(
     pageName: 'email',
