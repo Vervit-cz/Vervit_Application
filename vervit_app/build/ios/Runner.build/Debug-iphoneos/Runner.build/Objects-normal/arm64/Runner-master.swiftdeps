@@ -1,5 +1,0 @@
-version: "Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)"
-options: "15ab7cdf0413fa89ccb1382ef163806d"
-build_time: [1630840244, 979697000]
-inputs:
-  "/Users/krystoflatka/Documents/GitHub/Vervit_Application/vervit_app/ios/Runner/AppDelegate.swift": [1623575751, 305390721]

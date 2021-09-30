@@ -26,6 +26,23 @@ class CardVideo extends StatefulWidget {
 
 bool _isFullScreen = false;
 class _CardVideoState extends State<CardVideo> {
+
+  /// Calculates the device aspect ratio, in order to display the video correctly in full screen
+  ///
+  /// Takes in the widget's [BuildContext] to get the size of the display
+  /// Outputs a [double] containing the aspect ratio
+  double _calculateDeviceAspectRatio(BuildContext context) {
+    /// Screen padding (menus, etc)
+    double paddingHoriz = MediaQuery.of(context).padding.left + MediaQuery.of(context).padding.right;
+    double paddingVert = MediaQuery.of(context).padding.top + MediaQuery.of(context).padding.bottom;
+
+    /// Actual size
+    double sizeHoriz = MediaQuery.of(context).size.width - paddingHoriz;
+    double sizeVert = MediaQuery.of(context).size.height - paddingVert;
+
+    return sizeVert / sizeHoriz;
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -36,7 +53,7 @@ class _CardVideoState extends State<CardVideo> {
           centerTitle: true,
         ),
         body: YoutubePlayerBuilder(
-          player: YoutubePlayer(controller: VideoChooser.controller),
+          player: YoutubePlayer(controller: VideoChooser.controller, aspectRatio: _calculateDeviceAspectRatio(context),),
           onEnterFullScreen: () {
             setState(() {
               _isFullScreen = true;
@@ -57,13 +74,13 @@ class _CardVideoState extends State<CardVideo> {
                   Container(
                       margin: const EdgeInsets.fromLTRB(16.0, 0.0, 16.0, 0.0),
                       child: Text(
-                            VideoChooser.page.videos[VideoChooser.video].description,
-                            style: TextStyle(
-                              fontSize: 18.0,
-                              color: Colors.grey[800],
-                              height: 1.15,
-                            ),
-                          )
+                        VideoChooser.page.videos[VideoChooser.video].description,
+                        style: TextStyle(
+                          fontSize: 18.0,
+                          color: Colors.grey[800],
+                          height: 1.15,
+                        ),
+                      )
                   )
                 ]
             );

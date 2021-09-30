@@ -1,4 +1,0 @@
-io/flutter/plugins/GeneratedPluginRegistrant.java
- io.flutter.plugins.GeneratedPluginRegistrant
-com/example/vervit_app/BuildConfig.java
- com.example.vervit_app.BuildConfig
