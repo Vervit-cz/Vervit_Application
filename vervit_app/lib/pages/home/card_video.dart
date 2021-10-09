@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:vervit_app/videoplayer/videoplayer.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'card_navigation.dart';
 
@@ -27,22 +28,6 @@ class CardVideo extends StatefulWidget {
 bool _isFullScreen = false;
 class _CardVideoState extends State<CardVideo> {
 
-  /// Calculates the device aspect ratio, in order to display the video correctly in full screen
-  ///
-  /// Takes in the widget's [BuildContext] to get the size of the display
-  /// Outputs a [double] containing the aspect ratio
-  double _calculateDeviceAspectRatio(BuildContext context) {
-    /// Screen padding (menus, etc)
-    double paddingHoriz = MediaQuery.of(context).padding.left + MediaQuery.of(context).padding.right;
-    double paddingVert = MediaQuery.of(context).padding.top + MediaQuery.of(context).padding.bottom;
-
-    /// Actual size
-    double sizeHoriz = MediaQuery.of(context).size.width - paddingHoriz;
-    double sizeVert = MediaQuery.of(context).size.height - paddingVert;
-
-    return sizeVert / sizeHoriz;
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -52,39 +37,47 @@ class _CardVideoState extends State<CardVideo> {
           title: Text(VideoChooser.page.videos[VideoChooser.video].name, style: TextStyle(color: Colors.black),),
           centerTitle: true,
         ),
-        body: YoutubePlayerBuilder(
-          player: YoutubePlayer(controller: VideoChooser.controller, aspectRatio: _calculateDeviceAspectRatio(context),),
-          onEnterFullScreen: () {
-            setState(() {
-              _isFullScreen = true;
-            });
-          },
-          onExitFullScreen: () {
-            setState(() {
-              _isFullScreen = false;
-            });
-          },
-          builder: (context, player) {
-            return Column(
-                children: [
-                  Padding(
-                    padding: const EdgeInsets.all(16.0),
-                    child: player,
-                  ),
-                  Container(
-                      margin: const EdgeInsets.fromLTRB(16.0, 0.0, 16.0, 0.0),
-                      child: Text(
-                        VideoChooser.page.videos[VideoChooser.video].description,
-                        style: TextStyle(
-                          fontSize: 18.0,
-                          color: Colors.grey[800],
-                          height: 1.15,
+        body: Stack(
+          children: [
+            Positioned(
+              top: 0,
+              left: 0,
+              child: YoutubePlayerBuilder(
+                player: YoutubePlayer(controller: VideoChooser.controller, aspectRatio: VideoPlayer.calculateDeviceAspectRatio(context),),
+                onEnterFullScreen: () {
+                  setState(() {
+                    _isFullScreen = true;
+                  });
+                },
+                onExitFullScreen: () {
+                  setState(() {
+                    _isFullScreen = false;
+                  });
+                },
+                builder: (context, player) {
+                  return Column(
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.all(16.0),
+                          child: SafeArea(child: player),
                         ),
-                      )
-                  )
-                ]
-            );
-          },
+                        Container(
+                            margin: const EdgeInsets.fromLTRB(16.0, 0.0, 16.0, 0.0),
+                            child: Text(
+                              VideoChooser.page.videos[VideoChooser.video].description,
+                              style: TextStyle(
+                                fontSize: 18.0,
+                                color: Colors.grey[800],
+                                height: 1.15,
+                              ),
+                            )
+                        )
+                      ]
+                  );
+                },
+              ),
+            ),
+          ],
         )
     );
   }
