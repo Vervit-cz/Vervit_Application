@@ -63,7 +63,7 @@ class _HomePageState extends State<HomePage> {
                         MaterialPageRoute(
                           builder: (context) => CardPageWidget(
                               page: findNavigationRoute('computer'),
-                          prevCardName: 'Práce s Počítačem' ),
+                          prevCardName: 'Práce s počítačem' ),
                         ),
                       );
                     },
@@ -82,7 +82,7 @@ class _HomePageState extends State<HomePage> {
                         MaterialPageRoute(
                           builder: (context) => CardPageWidget(
                               page: findNavigationRoute('phone'),
-                          prevCardName: 'Práce s Mobilem',),
+                          prevCardName: 'Práce s mobilem',),
                         ),
                       );
                     },
@@ -108,7 +108,7 @@ class _HomePageState extends State<HomePage> {
                         MaterialPageRoute(
                           builder: (context) => CardPageWidget(
                               page: findNavigationRoute('social media'),
-                          prevCardName: 'Sociální Sítě',),
+                          prevCardName: 'Sociální sítě',),
                         ),
                       );
                     },
@@ -127,7 +127,7 @@ class _HomePageState extends State<HomePage> {
                         MaterialPageRoute(
                           builder: (context) => CardPageWidget(
                               page: findNavigationRoute('security'),
-                          prevCardName: 'Bezpečnost Na Internetu',),
+                          prevCardName: 'Bezpečnost na internetu',),
                         ),
                       );
                     },

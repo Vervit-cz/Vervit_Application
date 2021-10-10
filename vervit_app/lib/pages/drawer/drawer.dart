@@ -65,7 +65,7 @@ class DrawerContentsPageState extends State<DrawerContents> {
             margin: const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 0.0),
             child: ElevatedButton(
               onPressed: () {
-
+                Interactions.launchURL("mailto:vervitpodpora@gmail.com?subject=Podpora&body=");
               },
               style: ButtonStyle(
                   backgroundColor: MaterialStateProperty.all<Color>(kColorYellow),
