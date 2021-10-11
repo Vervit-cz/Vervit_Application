@@ -188,7 +188,7 @@ CardPage findNavigationRoute(String navigateTo){
 }
 
 List<VideoObject> createVideosList(String searchTerm){
-  List<VideoObject> list = Database.orderedSearchList(searchTerm);
+  List<VideoObject> list = Database.orderedSearchListMultipleTerms(searchTerm);
   if (list.isNotEmpty){
     return list;
   }

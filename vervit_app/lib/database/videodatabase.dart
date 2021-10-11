@@ -150,5 +150,22 @@ class Database
     return orderedVideos;
   }
 
+  static List <VideoObject> orderedSearchListMultipleTerms(String searchTerm)
+  {
+    //print(searchTerm);
+    List <VideoObject> orderedVideos = <VideoObject> [];
+    List<List<int>> nOfMatches = <List<int>> [];
+    nOfMatches = searchDatabase(searchTerm);
+    selectionSort(nOfMatches);
+    nOfMatches.forEach((element) {
+      if ((videoObjectList[element[0]].isVideo)&&(element[1]>1))
+      {
+        orderedVideos.add(videoObjectList[element[0]]);
+      }
+    });
+
+    return orderedVideos;
+  }
+
 
 }
