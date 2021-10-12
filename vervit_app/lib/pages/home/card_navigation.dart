@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:vervit_app/constants.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:vervit_app/database/video.dart';
-import 'package:vervit_app/database/keyword_database.dart';
+import 'package:vervit_app/database/videodatabase.dart';
 
 class CardPage{
   String pageName;
@@ -188,7 +188,7 @@ CardPage findNavigationRoute(String navigateTo){
 }
 
 List<VideoObject> createVideosList(String searchTerm) {
-  List<VideoObject> list = KeywordDatabase.orderedSearchList(searchTerm, 1);
+  List<VideoObject> list = Database.orderedSearchList(searchTerm, 1, false);
   if (list.isNotEmpty) {
     return list;
   }

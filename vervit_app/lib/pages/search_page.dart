@@ -213,11 +213,11 @@ class SearchResultsListView extends StatelessWidget {
 
     final fsb = FloatingSearchBar.of(context);
 
-    if ((Database.orderedSearchList(searchTerm, 0)).isNotEmpty)
+    if ((Database.orderedSearchList(searchTerm, 0, true)).isNotEmpty)
     {
       return ListView(
           padding: EdgeInsets.only(top: 60),
-          children: (Database.orderedSearchList(searchTerm, 0)).map((x) =>
+          children: (Database.orderedSearchList(searchTerm, 0, true)).map((x) =>
               VideoCard(video: x)).toList()
       );
     }
