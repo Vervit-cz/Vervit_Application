@@ -8,7 +8,7 @@ Video - 7
 Představení prohlížeče Google
 V tomto videu se dozvíte všechno o prohlížeči Google, co budete potřebovat. Ukážeme si, jak v Googlu vyhledávat, co jsou to rychlé odpovědi, nebo jak si vyhledat obrázky.
 https://youtu.be/mQ7uXtBijK0
-PC, Počítač, Internet, Vyhledávač, vyhledat, Hledat,
+PC, Počítač, Internet, Vyhledávač, vyhledat, Hledat, Google
 Video - 8
 Video - 9
 Jak si vyhledat MHD spojení
@@ -31,7 +31,7 @@ Video - 14
 Jak si vyhledat počasí na iPhonu
 V tomto videu Vás naučíme, jak si na Vašem Iphonu vyhledat počasí. Ukážeme si, jak si najít počasí na konkrétních místech, vyhledat pravděpodobnost deště, nebo předpokládanou teplotu na jednotlivé dny.
 https://youtu.be/9F0h9gPJg_8
-Mobil, Telefon, iPhone, Samsung, IOS, Android, Vyhledávač, Vyhledat, Hledat, Slunce, Sníh, Déšť, Teplota, Vítr, Srážky,
+Mobil, Telefon, iPhone, IOS, Vyhledávač, Vyhledat, Hledat, Slunce, Sníh, Déšť, Teplota, Vítr, Srážky,
 Video - 15
 Video - 16
 Video - 17
@@ -61,7 +61,7 @@ Video - 28
 Co je to Start menu
 V tomto videu si ukážeme, co je to Start menu a jak nám může v práci s počítačem pomoct. Naučíme Vás používat všechny důležité funkce, které Vám usnadní mnoho každodenních činností na počítači.
 https://youtu.be/aZcj1odygtA
-PC, Počítač, Základy práce s PC,
+PC, Počítač, Základy práce s PC, Základy
 Video - 29
 Video - 30
 Video - 31
@@ -103,7 +103,7 @@ Video - 58
 Jak si do iPhonu nainstalovat aplikace
 V tomto videu si ukážeme, jak si ve Vašem iphonu můžete stáhnout aplikace z Appstoru. Ukážeme Vám, jak rozpoznat placené a neplacené aplikace, jak konkrétní aplikaci vyhledat, nebo jak poznat, zda máte v nějaké aplikaci objednané předplatné.
 https://youtu.be/c9c9zVa3JME
-Mobil, Telefon, iPhone, IOS, app store, app, obchod, koupit, instalovat,
+Mobil, Telefon, iPhone, IOS, app store, app, obchod, koupit, instalovat, Základy
 Video - 59
 Video - 60
 Video - 61
@@ -119,12 +119,12 @@ Video - 66
 Jak používat kalkulačku na iPhonu
 V tomto videu se naučíte, jak na Vašem iphonu používat aplikaci kalkulačka. Ukážeme Vám všechny její užitečné funkce, které by se Vám mohly hodit.
 https://youtu.be/aggjF-4rUW4
-Mobil, Telefon, iPhone, IOS, sčítání, odčítání, násobení, dělení,
+Mobil, Telefon, iPhone, IOS, sčítání, odčítání, násobení, dělení, Aplikace
 Video - 67
 Jak používat kalkulačku pro Android
 V tomto videu si ukážeme, jak používat kalkulačku na telefonech s androidem. Ukážeme si základní i složitější matematické funkce, a také doplňkové funkce, jako je například převodník jednotek.
 https://youtu.be/g8XQk7AgIGQ
-Mobil, Telefon, Samsung, Android, sčítání, odčítání, násobení, dělení,
+Mobil, Telefon, Samsung, Android, sčítání, odčítání, násobení, dělení, Aplikace
 Video - 68
 Video - 69
 Video - 70

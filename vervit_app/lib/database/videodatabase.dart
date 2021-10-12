@@ -133,7 +133,7 @@ class Database
     list[i] = temp;
   }
 
-  static List <VideoObject> orderedSearchList (String searchTerm)
+  static List <VideoObject> orderedSearchList(String searchTerm, int matchedTerms)
   {
     //print(searchTerm);
     List <VideoObject> orderedVideos = <VideoObject> [];
@@ -141,7 +141,7 @@ class Database
     nOfMatches = searchDatabase(searchTerm);
     selectionSort(nOfMatches);
     nOfMatches.forEach((element) {
-      if ((videoObjectList[element[0]].isVideo)&&(element[1]>0))
+      if ((videoObjectList[element[0]].isVideo)&&(element[1]>matchedTerms))
       {
         orderedVideos.add(videoObjectList[element[0]]);
       }
@@ -149,23 +149,5 @@ class Database
 
     return orderedVideos;
   }
-
-  static List <VideoObject> orderedSearchListMultipleTerms(String searchTerm)
-  {
-    //print(searchTerm);
-    List <VideoObject> orderedVideos = <VideoObject> [];
-    List<List<int>> nOfMatches = <List<int>> [];
-    nOfMatches = searchDatabase(searchTerm);
-    selectionSort(nOfMatches);
-    nOfMatches.forEach((element) {
-      if ((videoObjectList[element[0]].isVideo)&&(element[1]>1))
-      {
-        orderedVideos.add(videoObjectList[element[0]]);
-      }
-    });
-
-    return orderedVideos;
-  }
-
 
 }

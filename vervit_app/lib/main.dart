@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:vervit_app/constants.dart';
+import 'package:vervit_app/database/keyword_database.dart';
 import 'package:vervit_app/database/videodatabase.dart';
 import 'package:vervit_app/pages/home_page.dart';
 import 'package:vervit_app/pages/tracks_page.dart';
@@ -29,6 +30,7 @@ void main() {
   ));
 
   Database.createDatabase();
+  KeywordDatabase.createDatabase();
 
 }
 
