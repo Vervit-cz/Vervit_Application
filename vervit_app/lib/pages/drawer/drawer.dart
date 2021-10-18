@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:vervit_app/constants.dart';
 import 'package:vervit_app/interactions/url_launcher.dart';
+import 'about_us.dart';
 
 class DrawerContents extends StatefulWidget {
   @override
@@ -172,6 +173,43 @@ class DrawerContentsPageState extends State<DrawerContents> {
               ),
             ),
           ),
+          Card(
+            margin: const EdgeInsets.fromLTRB(16.0, 32.0, 16.0, 0.0),
+            child: ElevatedButton(
+              onPressed: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) => AboutUs()));
+              },
+              style: ButtonStyle(
+                  backgroundColor: MaterialStateProperty.all<Color>(kColorGray),
+                  shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                      RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(5.0),
+                      )
+                  )
+              ),
+              child: Padding(
+                padding: const EdgeInsets.fromLTRB(0.0, 16.0, 0, 16.0),
+                child: Row(
+                    children: <Widget> [
+                      Icon(
+                        CupertinoIcons.profile_circled,
+                        color: Colors.black,
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Text(
+                            'O nás',
+                            style: TextStyle(
+                              fontSize: 15.0,
+                              color: Colors.black,
+                            )
+                        ),
+                      ),
+                    ]
+                ),
+              ),
+            ),
+          )
         ]
     );
   }
