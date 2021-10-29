@@ -4,7 +4,6 @@ import 'info_card.dart';
 
 class AboutUs extends StatelessWidget {
 
-  //TODO Finish the description and add any pictures/supporting information
   final String description = 'Vervit je studentský neziskový projekt, zaměřený na rozšířování technických dovedností mezi staršími lidmi. Jsme skupinou nadšených studentů z gymnázia Nový PORG v Praze a rádi bychom pomohli lidem v našem okolí.  ';
 
   @override

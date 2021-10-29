@@ -20,15 +20,32 @@ class VideoPlayer {
     );
   }
 
+  /// Calculates the device aspect ratio, in order to display the video correctly in full screen
+  ///
+  /// Takes in the widget's [BuildContext] to get the size of the display
+  /// Outputs a [double] containing the aspect ratio
+  static double calculateDeviceAspectRatio(BuildContext context) {
+    /// Screen padding (menus, etc)
+    //double paddingHoriz = MediaQuery.of(context).padding.left + MediaQuery.of(context).padding.right;
+    //double paddingVert = MediaQuery.of(context).padding.top + MediaQuery.of(context).padding.bottom;
+
+    /// Actual size
+    double sizeHoriz = MediaQuery.of(context).size.width; // + 2*paddingHoriz;
+    double sizeVert = MediaQuery.of(context).size.height; // + 2*paddingVert;
+
+    return sizeVert / sizeHoriz;
+  }
+
 }
 class Video extends StatefulWidget {
   @override
   _VideoState createState() => _VideoState();
 }
 
-bool _isFullScreen = false;
-bool _ended = false;
 class _VideoState extends State<Video> {
+  bool _isFullScreen = false;
+  bool _ended = false;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -56,7 +73,7 @@ class _VideoState extends State<Video> {
               Container(
                   margin: EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 0),
                   child: Image(
-                    image: AssetImage('assets/Závěrečný snímek.jpg'),
+                    image: AssetImage('assets/Závěrečný_snímek.jpg'),
                   )
               ),
               Card(
@@ -78,7 +95,7 @@ class _VideoState extends State<Video> {
         YoutubePlayerBuilder(
           player: YoutubePlayer(
             controller: VideoPlayer.controller,
-            aspectRatio: 2.15,
+            aspectRatio: VideoPlayer.calculateDeviceAspectRatio(context),
             onEnded: (metaData) {
               setState(() {
                 if (_isFullScreen) {VideoPlayer.controller.toggleFullScreenMode();}
@@ -101,7 +118,7 @@ class _VideoState extends State<Video> {
             return Column(
                 children: [
                   Card(
-                      margin: const EdgeInsets.all(16.0),
+                      margin: const EdgeInsets.all(16),
                       child: player
                   ),
                   Card(

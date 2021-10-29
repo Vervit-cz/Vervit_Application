@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'video.dart';
-import 'package:vervit_app/constants.dart';
 import 'package:vervit_app/videoplayer/videoplayer.dart';
 
 class VideoCard extends StatelessWidget {

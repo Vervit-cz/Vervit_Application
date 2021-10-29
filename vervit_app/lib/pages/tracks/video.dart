@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:vervit_app/pages/tracks/track.dart';
+import 'package:vervit_app/videoplayer/videoplayer.dart';
 import 'card.dart';
 
 
@@ -100,7 +101,7 @@ class _VideoState extends State<Video> {
       YoutubePlayerBuilder(
         player: YoutubePlayer(
           controller: VideoChooser.controller,
-          aspectRatio: 2.15,
+          aspectRatio: VideoPlayer.calculateDeviceAspectRatio(context),
           onEnded: (metaData) {
             setState(() {
               if (_isFullScreen) {VideoChooser.controller.toggleFullScreenMode();}
@@ -122,9 +123,9 @@ class _VideoState extends State<Video> {
         builder: (context, player) {
           return Column(
             children: [
-              Card(
-                margin: const EdgeInsets.all(16.0),
-                child: player
+              Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: SafeArea(child: player),
               ),
               Card(
                 margin: const EdgeInsets.fromLTRB(16.0, 0.0, 16.0, 0.0),
