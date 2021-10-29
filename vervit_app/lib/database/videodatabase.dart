@@ -23,8 +23,9 @@ class Database
     String videoName;
     String videoID;
     String description;
-    String extraKeywords;
+    String tags;
     List<String> keywords = <String> [];
+    List<String> extraKeywords = <String> [];
 
     List <VideoObject> videos = <VideoObject> [];
 
@@ -39,9 +40,10 @@ class Database
           videoName = lines[videoCounter+1];
           description = lines[videoCounter+2];
           videoID = lines[videoCounter+3].substring(17);
-          extraKeywords = lines[videoCounter+4];
-          keywords = determineKeywords(videoName, description, extraKeywords);
-          videos.add(new VideoObject(true,videoObjectCounter+1,videoName,videoID,description,keywords));
+          tags = lines[videoCounter+4];
+          keywords = determineKeywords(videoName, description);
+          extraKeywords = determineExtraKeywords(tags);
+          videos.add(new VideoObject(true,videoObjectCounter+1,videoName,videoID,description,keywords, extraKeywords));
           videoObjectCounter += 1;
           videoCounter += 4;
 
@@ -53,7 +55,7 @@ class Database
           description = null;
           videoID = null;
           keywords = null;
-          videos.add(new VideoObject(false,videoObjectCounter+1,videoName,videoID,description,keywords));
+          videos.add(new VideoObject(false,videoObjectCounter+1,videoName,videoID,description,keywords, extraKeywords));
           videoObjectCounter += 1;
           //print("trh");
         }
@@ -75,19 +77,23 @@ class Database
 
   }
 
-
-
-  static List<String> determineKeywords (String name, String description, String extraKeywords)
+  static List<String> determineKeywords (String name, String description)
   {
     List<String> keywords;
     keywords = (description.toLowerCase().replaceAll(',','').replaceAll('.','').split(' '));
     keywords.addAll(name.toLowerCase().replaceAll(',','').replaceAll('.','').split(' '));
-    keywords.addAll(extraKeywords.toLowerCase().replaceAll(',','').replaceAll('.','').split(' '));
+    return keywords;
+  }
+
+  static List<String> determineExtraKeywords(String extraKeywords)
+  {
+    List<String> keywords;
+    keywords = (extraKeywords.toLowerCase().replaceAll(',','').replaceAll('.','').split(' '));
     return keywords;
   }
 
 
-  static List<List<int>> searchDatabase (String searchTerm)
+  static List<List<int>> searchDatabase(String searchTerm, bool useAllKeywords)
   {
     List<String> searchTerms;
     searchTerms = (searchTerm.toLowerCase().replaceAll(',','').replaceAll('.','').split(' '));
@@ -99,13 +105,22 @@ class Database
       counter = 0;
       if (element.isVideo)
       {
-        element.keywords.forEach((x) {
+        element.extraKeywords.forEach((x) {
           searchTerms.forEach((y) {
             if (x == y) {
               counter ++;
             }
           });
         });
+        if (useAllKeywords) {
+          element.keywords.forEach((x) {
+            searchTerms.forEach((y) {
+              if (x == y) {
+                counter ++;
+              }
+            });
+          });
+        }
       }
       nOfMatches.add([videoIndex,counter]);
       videoIndex ++;
@@ -133,15 +148,15 @@ class Database
     list[i] = temp;
   }
 
-  static List <VideoObject> orderedSearchList (String searchTerm)
+  static List <VideoObject> orderedSearchList(String searchTerm, int matchedTerms, bool useAllKeywords)
   {
     //print(searchTerm);
     List <VideoObject> orderedVideos = <VideoObject> [];
     List<List<int>> nOfMatches = <List<int>> [];
-    nOfMatches = searchDatabase(searchTerm);
+    nOfMatches = searchDatabase(searchTerm, useAllKeywords);
     selectionSort(nOfMatches);
     nOfMatches.forEach((element) {
-      if ((videoObjectList[element[0]].isVideo)&&(element[1]>0))
+      if ((videoObjectList[element[0]].isVideo)&&(element[1]>matchedTerms))
       {
         orderedVideos.add(videoObjectList[element[0]]);
       }
@@ -149,6 +164,5 @@ class Database
 
     return orderedVideos;
   }
-
 
 }

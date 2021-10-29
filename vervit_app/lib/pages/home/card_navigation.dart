@@ -125,7 +125,7 @@ var homePages = [
     pageName: 'iphone basics',
     pageColor: kColorLightGreen,
     cards:[],
-    videos: createVideosList('iphone iphonu'),
+    videos: createVideosList('iphone základy'),
   ),
   CardPage(
     pageName: 'iphone apps',
@@ -137,7 +137,7 @@ var homePages = [
     pageName: 'android basics',
     pageColor: kColorLightGreen,
     cards:[],
-    videos: createVideosList('android androidu androidem'),
+    videos: createVideosList('android základy'),
   ),
   CardPage(
     pageName: 'android apps',
@@ -149,7 +149,7 @@ var homePages = [
     pageName: 'computer basics',
     pageColor: kColorTeal,
     cards:[],
-    videos: createVideosList('počítač počítačem'),
+    videos: createVideosList('Počítač základy'),
   ),
   CardPage(
     pageName: 'social media',
@@ -167,13 +167,13 @@ var homePages = [
     pageName: 'email',
     pageColor: kColorTeal,
     cards:[],
-    videos: createVideosList('email emailovou'),
+    videos: createVideosList('Počítač email'),
   ),
   CardPage(
     pageName: 'browser',
     pageColor: kColorTeal,
     cards:[],
-    videos: createVideosList('vyhledat Google stránky'),
+    videos: createVideosList('Počítač vyhledat'),
 ),
 ];
 
@@ -187,12 +187,12 @@ CardPage findNavigationRoute(String navigateTo){
   return match;
 }
 
-List<VideoObject> createVideosList(String searchTerm){
-  List<VideoObject> list = Database.orderedSearchList(searchTerm);
-  if (list.isNotEmpty){
+List<VideoObject> createVideosList(String searchTerm) {
+  List<VideoObject> list = Database.orderedSearchList(searchTerm, 1, false);
+  if (list.isNotEmpty) {
     return list;
   }
-  else{
+  else {
     return [];
   }
 }

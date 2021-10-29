@@ -8,7 +8,7 @@ Video - 7
 Představení prohlížeče Google
 V tomto videu se dozvíte všechno o prohlížeči Google, co budete potřebovat. Ukážeme si, jak v Googlu vyhledávat, co jsou to rychlé odpovědi, nebo jak si vyhledat obrázky.
 https://youtu.be/mQ7uXtBijK0
-PC, Počítač, Internet, Vyhledávač, vyhledat, Hledat,
+PC, Počítač, Internet, Vyhledávač, vyhledat, Hledat, Google
 Video - 8
 Video - 9
 Jak si vyhledat MHD spojení
@@ -26,12 +26,12 @@ Video - 13
 Jak si vyhledat spojení MHD na mobilu
 V tomto videu Vás naučíme, jak si rychle a jednoduše z Vašeho telefonu najdete vhodný spoj MHD. Pomocí aplikace Jízdní řády Vám také ukážeme, jak si můžete koupit SMS jízdenku, a spoustu dalších užitečných funkcí.
 https://youtu.be/guAyzJtQjoY
-Mobil, Telefon, iPhone, Samsung, IOS, Android, Vyhledávač, Vyhledat, Hledat, Autobus, Bus, Metro, Vlak, Tramvaj,
+Mobil, Telefon, iPhone, Samsung, IOS, Android, Aplikace, Vyhledávač, Vyhledat, Hledat, Autobus, Bus, Metro, Vlak, Tramvaj,
 Video - 14
 Jak si vyhledat počasí na iPhonu
 V tomto videu Vás naučíme, jak si na Vašem Iphonu vyhledat počasí. Ukážeme si, jak si najít počasí na konkrétních místech, vyhledat pravděpodobnost deště, nebo předpokládanou teplotu na jednotlivé dny.
 https://youtu.be/9F0h9gPJg_8
-Mobil, Telefon, iPhone, Samsung, IOS, Android, Vyhledávač, Vyhledat, Hledat, Slunce, Sníh, Déšť, Teplota, Vítr, Srážky,
+Mobil, Telefon, iPhone, Aplikace, IOS, Vyhledávač, Vyhledat, Hledat, Slunce, Sníh, Déšť, Teplota, Vítr, Srážky,
 Video - 15
 Video - 16
 Video - 17
@@ -53,7 +53,7 @@ Video - 24
 Představení stránky Mapy.cz
 Chystáte se na výlet a potřebujete naplánovat trasu? V tomto videu Vás naučíme, jak pracovat se stránkou Mapy.cz, která je nejlepší na plánování pěších, cyklistických, ale třeba i běžkařských výletů po České republice.
 https://youtu.be/k05i60mf_kU
-PC, Počítač, Internet, Mapy, Mapa, Trasa, Cesta, Auto, Chůze, Pěšky, Kolo, Běžky,
+PC, Počítač, Internet, Mapy, Mapa, Trasa, Cesta, Auto, Chůze, Pěšky, Kolo, Běžky, Vyhledat
 Video - 25
 Video - 26
 Video - 27
@@ -61,7 +61,7 @@ Video - 28
 Co je to Start menu
 V tomto videu si ukážeme, co je to Start menu a jak nám může v práci s počítačem pomoct. Naučíme Vás používat všechny důležité funkce, které Vám usnadní mnoho každodenních činností na počítači.
 https://youtu.be/aZcj1odygtA
-PC, Počítač, Základy práce s PC,
+PC, Počítač, Základy
 Video - 29
 Video - 30
 Video - 31
@@ -103,7 +103,7 @@ Video - 58
 Jak si do iPhonu nainstalovat aplikace
 V tomto videu si ukážeme, jak si ve Vašem iphonu můžete stáhnout aplikace z Appstoru. Ukážeme Vám, jak rozpoznat placené a neplacené aplikace, jak konkrétní aplikaci vyhledat, nebo jak poznat, zda máte v nějaké aplikaci objednané předplatné.
 https://youtu.be/c9c9zVa3JME
-Mobil, Telefon, iPhone, IOS, app store, app, obchod, koupit, instalovat,
+Mobil, Telefon, iPhone, IOS, app store, app, obchod, koupit, instalovat, Aplikace
 Video - 59
 Video - 60
 Video - 61
@@ -119,12 +119,12 @@ Video - 66
 Jak používat kalkulačku na iPhonu
 V tomto videu se naučíte, jak na Vašem iphonu používat aplikaci kalkulačka. Ukážeme Vám všechny její užitečné funkce, které by se Vám mohly hodit.
 https://youtu.be/aggjF-4rUW4
-Mobil, Telefon, iPhone, IOS, sčítání, odčítání, násobení, dělení,
+Mobil, Telefon, iPhone, IOS, sčítání, odčítání, násobení, dělení, Aplikace
 Video - 67
 Jak používat kalkulačku pro Android
 V tomto videu si ukážeme, jak používat kalkulačku na telefonech s androidem. Ukážeme si základní i složitější matematické funkce, a také doplňkové funkce, jako je například převodník jednotek.
 https://youtu.be/g8XQk7AgIGQ
-Mobil, Telefon, Samsung, Android, sčítání, odčítání, násobení, dělení,
+Mobil, Telefon, Samsung, Android, sčítání, odčítání, násobení, dělení, Aplikace
 Video - 68
 Video - 69
 Video - 70
@@ -132,7 +132,7 @@ Video - 71
 Jak pracovat s Google překladačem
 V tomto videu se naučíte, jak pracovat s nejvyužívanějším internetovým překladačem, jak měnit jazyky, a jak využít jeho další užitečné funkce, jako je třeba překládání z fotek.
 https://youtu.be/REl9BOkqG3w
-PC, Počítač, Internet, Jazyk, Jazyky, překlad, přeložit, angličtina, čeština, němčina, francouzština, ruština
+PC, Počítač, Internet, Jazyk, Jazyky, překlad, přeložit, angličtina, čeština, němčina, francouzština, ruština, Vyhledat
 Video - 72
 Jak používat překladač na mobilu
 V tomto videu Vám ukážeme, jak používat na mobilu aplikaci Google překladač. Naučíte se vybírat mezi jazyky, ale také využívat užitečné funkce, jako je třeba překládání z fotek.
@@ -142,13 +142,13 @@ Video - 73
 Jak používat poznámky na iphonu
 V tomto videu se naučíte, jak pracovat s aplikací poznámky na iphonu. Ukážeme Vám, jak si v poznámce vytvořit nákupní seznam, tabulku, nebo jak do poznámky vložit fotku či dokument.
 https://youtu.be/1J8hw1kAQtc
-Mobil, Telefon, iPhone, IOS, zápisník, poznámka, zapsat, poznamenat, blok,
+Mobil, Telefon, iPhone, Aplikace, IOS, zápisník, poznámka, zapsat, poznamenat, blok,
 Video - 74
 Video - 75
 Jak se orientovat v nastavení pro Android
 V tomto videu Vás naučíme, jak si upravit základní nastavení Vašeho mobilu s androidem. Ukážeme Vám, jak si regulovat hlasitost, jas, nebo jak si upravit velikost písma tak, aby se nám co nejpříjemněji četlo.
 https://youtu.be/QeNk_ePTUQ0
-Mobil, Telefon, Samsung, Android, nastavit, změnit, hlasitost, písmo,
+Mobil, Telefon, Samsung, Android, nastavit, změnit, hlasitost, písmo, Základy
 Video - 76
 Video - 77
 Video - 78
@@ -156,7 +156,7 @@ Video - 79
 Jak se připojit k wifi s Androidem
 V tomto videu Vám ukážeme, jak se z Vašeho mobilu s androidem připojíte k internetu prostřednictvím wifi.
 https://youtu.be/LahSXLSEDps
-Mobil, Telefon, Samsung, Android, internet, bezdrátově, nastavení, heslo,
+Mobil, Telefon, Samsung, Android, internet, bezdrátově, nastavení, heslo, Základy
 Video - 80
 Video - 81
 Video - 82
@@ -175,14 +175,14 @@ Video - 94
 Jak vyhledávat aplikace v Android mobilech
 V tomto videu si ukážeme, jak si můžeme v našem mobilu s androidem najít některou z našich aplikací. Také Vás naučíme, jak rychle najít jakýkoli z našich kontaktů.
 https://youtu.be/qGTnsh4GB2s
-Mobil, Telefon, Samsung, Android, vyhledávání, najít, hledat,
+Mobil, Telefon, Samsung, Android, vyhledávání, najít, hledat, Základy
 Video - 95
 Video - 96
 Video - 97
 Jak si nastavit tapetu na Androidu
 V tomto videu Vás naučíme, jak si nastavíte na svém mobilu s Androidem novou tapetu. Ukážeme si, jak si vybrat z předem vytvořených tapet, a také jak si můžete na tapetu nastavit vlastní fotku.
 https://youtu.be/CIkVenk4Ymk
-Mobil, Telefon, Samsung, Android, nastavení, tapeta, obrázek, plakát,
+Mobil, Telefon, Samsung, Android, nastavení, tapeta, obrázek, plakát, Základy
 Video - 98
 Video - 99
 Video - 100
@@ -216,7 +216,7 @@ Video - 127
 Představení funkce „Najít“ na Iphonu
 Zapomínáte často, kam jste si položili svůj Iphone? V tomto videu Vám představíme funkci, s jejíž pomocí můžete nejen najít ztracený mobil nebo jiné zařízení, ale také najít své přátele a rodinu, nebo na dálku zamknout svůj mobil z počítače, aby se do něj nikdo nedostal.
 https://youtu.be/9RsnRPLLOOg
-Mobil, Telefon, iPhone, IOS, vyhledávač, najít, hledat, ztráta, ztratit,
+Mobil, Telefon, iPhone, IOS, Aplikace, vyhledávač, najít, hledat, ztráta, ztratit,
 Video - 128
 Video - 129
 Video - 130
@@ -239,13 +239,13 @@ Video - 146
 Představení aplikace Hodiny na Iphonu
 V tomto videu si ukážeme, jaké funkce najdeme v aplikaci hodiny na Iphonu. Naučíme Vás nastavit si budík, jak najít stopky, jak si nastavit odpočet na časovači, a nebo jak používat světové hodiny.
 https://youtu.be/19A0n7aPITU
-Mobil, Telefon, iPhone, IOS, čas, změna času, časový rozdíl, vzbudit,
+Mobil, Telefon, iPhone, Aplikace, IOS, čas, změna času, časový rozdíl, vzbudit,
 Video - 147
 Video - 148
 Představení aplikace Kalendář na Iphonu
 V tomto videu si ukážeme, jaké funkce najdeme v aplikaci Kalendář na Iphonu. Naučíme Vás vytvářet si upozornění na konkrétní data a ukážeme Vám, jak se mezi Vašimi upozorněními orientovat.
 https://youtu.be/rdb6_zGX7sc
-Mobil, Telefon, iPhone, IOS, upomínka,
+Mobil, Telefon, iPhone, IOS, upomínka, Aplikace
 Video - 149
 Video - 150
 Video - 151
@@ -254,7 +254,7 @@ Video - 153
 Představení aplikace Netflix na Iphonu
 V tomto videu Vám představíme aplikaci Netflix pro Iphone. Provedeme Vás celým procesem registrace, dáme Vám užitečné tipy, a ukážeme si také, jak se pohybovat v samotné aplikaci při hledání filmů a seriálů.
 https://youtu.be/hnNJDeroAmI
-Mobil, Telefon, iPhone, IOS, film, televize, videa, seriál, seriály, filmy, video,
+Mobil, Telefon, iPhone, Aplikace, IOS, film, televize, videa, seriál, seriály, filmy, video,
 Video - 154
 Video - 155
 Video - 156

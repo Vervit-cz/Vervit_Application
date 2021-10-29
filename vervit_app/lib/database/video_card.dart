@@ -6,7 +6,8 @@ import 'package:vervit_app/videoplayer/videoplayer.dart';
 class VideoCard extends StatelessWidget {
 
   final VideoObject video;
-  VideoCard({ this.video });
+  final Color dividerColor;
+  VideoCard({ this.video, this.dividerColor });
 
   @override
   Widget build(BuildContext context) {
@@ -42,7 +43,7 @@ class VideoCard extends StatelessWidget {
               Divider(
                 height: 20.0,
                 thickness: 2.0,
-                color: kColorTeal,
+                color: dividerColor,
               ),
               Text(
                 video.description,
