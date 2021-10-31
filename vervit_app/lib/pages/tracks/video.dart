@@ -62,14 +62,13 @@ class _VideoState extends State<Video> {
       Column(
         children: [
           Card(
-            margin: const EdgeInsets.all(16.0),
+            margin: const EdgeInsets.fromLTRB(16, 16, 16, 0),
             child: Padding(
               padding: const EdgeInsets.all(12.0),
               child: Text(
                 (VideoChooser.video < Track.videos.length - 1) ? 'Kliknutím na tlačítko níže můžete pokračovat na další video.': 'Zde tento kurz končí. Kliknutím na šipku v levém horním rohu se vrátíte na hlavní stránku.',
                 style: TextStyle(
                   fontSize: 18.0,
-                  fontWeight: FontWeight.bold,
                   color: Colors.black,
                   height: 1.15,
                 ),
@@ -79,7 +78,6 @@ class _VideoState extends State<Video> {
           Container(
             child: (VideoChooser.video < Track.videos.length - 1) ? 
             Container(
-              margin: const EdgeInsets.fromLTRB(8.0, 0, 8.0, 0),
               child: Padding(
                 padding: const EdgeInsets.all(12.0),
                 child: VideoCard(
@@ -123,9 +121,9 @@ class _VideoState extends State<Video> {
         builder: (context, player) {
           return Column(
             children: [
-              Padding(
-                padding: const EdgeInsets.all(16.0),
-                child: SafeArea(child: player),
+              Card(
+                margin: const EdgeInsets.all(16),
+                child: player
               ),
               Card(
                 margin: const EdgeInsets.fromLTRB(16.0, 0.0, 16.0, 0.0),

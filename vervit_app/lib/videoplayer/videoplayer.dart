@@ -26,8 +26,8 @@ class VideoPlayer {
   /// Outputs a [double] containing the aspect ratio
   static double calculateDeviceAspectRatio(BuildContext context) {
     /// Screen padding (menus, etc)
-    //double paddingHoriz = MediaQuery.of(context).padding.left + MediaQuery.of(context).padding.right;
-    //double paddingVert = MediaQuery.of(context).padding.top + MediaQuery.of(context).padding.bottom;
+    // double paddingHoriz = MediaQuery.of(context).padding.left + MediaQuery.of(context).padding.right;
+    // double paddingVert = MediaQuery.of(context).padding.top + MediaQuery.of(context).padding.bottom;
 
     /// Actual size
     double sizeHoriz = MediaQuery.of(context).size.width; // + 2*paddingHoriz;
