@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)"
+options: "d2ddefbdb7b71b04f450605591fe40356012f7d544563b56f8d11049af1f6f4a"
+build_start_time: [1636219216, 437618970]
+build_end_time: [1636219216, 882621049]
+inputs:
+  "/Users/krystoflatka/Documents/GitHub/Vervit_Application/vervit_app/ios/Runner/AppDelegate.swift": !private [1623575751, 305390834]
