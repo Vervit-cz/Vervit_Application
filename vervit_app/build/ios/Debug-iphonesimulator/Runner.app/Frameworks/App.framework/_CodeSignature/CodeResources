@@ -10,7 +10,7 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		yvB5oJTX/+yJ6eR+rJK4+BKSFfM=
+		yxJTQKthqAvcMJ1hWZP7y6V3fDg=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -44,18 +44,6 @@
 		<data>
 		kpnnocZk6wG4JcPnqZdbKpkY65Q=
 		</data>
-		<key>flutter_assets/assets/photos/IMG_3715.jpg</key>
-		<data>
-		Fp+7v9gpy5l9y36EMoXv3sLg2EE=
-		</data>
-		<key>flutter_assets/assets/photos/IMG_6636.JPG</key>
-		<data>
-		U7NxCtHZzwwMSmJFGQBwvqwbJXw=
-		</data>
-		<key>flutter_assets/assets/photos/IMG_6637.JPG</key>
-		<data>
-		rzsDfDUibbMSAJaGb1g3GePk2/0=
-		</data>
 		<key>flutter_assets/assets/photos/Ivan%20Geisler.jpg</key>
 		<data>
 		mV9thCG7MkyQEVeuAPhXGeKtZZw=
@@ -75,6 +63,10 @@
 		<key>flutter_assets/assets/photos/Kry%C5%A1top%20P%C3%AD%C5%A1t%C4%9Bk.jpg</key>
 		<data>
 		5xdBjlhfABc5RUdW+iJGwOaqwug=
+		</data>
+		<key>flutter_assets/assets/photos/Krystof_Pistek.jpg</key>
+		<data>
+		MLO+i7nI82F7kO8KU5YuBt/BG3A=
 		</data>
 		<key>flutter_assets/assets/photos/Mai%20Lan%20Dang.jpg</key>
 		<data>
@@ -110,7 +102,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		/VN3ocB8XjzTCj8sy/lPECd7Uh8=
+		Fkyak2uIiWjDSJswx1fk3+8r17g=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -151,11 +143,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yvB5oJTX/+yJ6eR+rJK4+BKSFfM=
+			yxJTQKthqAvcMJ1hWZP7y6V3fDg=
 			</data>
 			<key>hash2</key>
 			<data>
-			yWofJvm49bwsadU97+OIA1uSCFxnTkxxX74yQKekZEU=
+			jhvhH906/KZzpwMnHYTT7/n2eJTvmh37FqQpN6XgYPk=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -235,39 +227,6 @@
 			T/N+VDlQf8VOtOkGRT0onaXjmLx4nNdXAegQzKrIOX0=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/photos/IMG_3715.jpg</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Fp+7v9gpy5l9y36EMoXv3sLg2EE=
-			</data>
-			<key>hash2</key>
-			<data>
-			dpmQ0MUVmKG/SJus4ueUIGBeT6ERuzJforoTYmfa2TM=
-			</data>
-		</dict>
-		<key>flutter_assets/assets/photos/IMG_6636.JPG</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			U7NxCtHZzwwMSmJFGQBwvqwbJXw=
-			</data>
-			<key>hash2</key>
-			<data>
-			3k0oYo1yzBxDXlXo/ko/IJD0GWwm1H/OtsCAR+CPFmE=
-			</data>
-		</dict>
-		<key>flutter_assets/assets/photos/IMG_6637.JPG</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			rzsDfDUibbMSAJaGb1g3GePk2/0=
-			</data>
-			<key>hash2</key>
-			<data>
-			3TxHbpVERecmwSK06bexl8GIZAMwH/igZXi5qgO5bNs=
-			</data>
-		</dict>
 		<key>flutter_assets/assets/photos/Ivan%20Geisler.jpg</key>
 		<dict>
 			<key>hash</key>
@@ -321,6 +280,17 @@
 			<key>hash2</key>
 			<data>
 			ztS4usolElWHnll1hJsaf/jQftdhuwWr+54mmLBUdB4=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/photos/Krystof_Pistek.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MLO+i7nI82F7kO8KU5YuBt/BG3A=
+			</data>
+			<key>hash2</key>
+			<data>
+			u7Q9BrMZa7fl7B9Ya02bi+541C+9Rjof/Dxelot2E38=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/photos/Mai%20Lan%20Dang.jpg</key>
@@ -415,11 +385,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/VN3ocB8XjzTCj8sy/lPECd7Uh8=
+			Fkyak2uIiWjDSJswx1fk3+8r17g=
 			</data>
 			<key>hash2</key>
 			<data>
-			j6GDqcLmaf2sjrrGjEViKfw0ZyiMDF+l/l2cL8p99lQ=
+			FLUiXKTFBdkdLV5W2BMqVWarkKuBkEYI9mw7Dh+8y8w=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
