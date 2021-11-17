@@ -10,7 +10,7 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		pf1Wvgz6ZUqT9yxiiVO++eplup4=
+		70DWphxod0sb8aF5FqitTjHlwuk=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -56,6 +56,10 @@
 		<data>
 		1qje576TN8YkhRN9sRDVB5VuJww=
 		</data>
+		<key>flutter_assets/assets/photos/Jakub_Dousa.jpg</key>
+		<data>
+		Q1CRqCavVl4VYFA6g8GwfirVQKw=
+		</data>
 		<key>flutter_assets/assets/photos/Kry%C5%A1tof%20Latka.jpg</key>
 		<data>
 		63yEfkgbepxUUjaJpasOsbtpkgE=
@@ -86,7 +90,7 @@
 		</data>
 		<key>flutter_assets/assets/videodatabase.txt</key>
 		<data>
-		p0hwSev6zg6edKqqEpLoidxjTQo=
+		FLFiSXo9xR/hI8mJpvIAqZtqFds=
 		</data>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
@@ -98,7 +102,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		z8x2FqKOxZKik0MoQeENt2uYiMw=
+		swaRbgn+Lv3jAos6O29vr+vRo4w=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -139,11 +143,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pf1Wvgz6ZUqT9yxiiVO++eplup4=
+			70DWphxod0sb8aF5FqitTjHlwuk=
 			</data>
 			<key>hash2</key>
 			<data>
-			0KkQo7p7/okC13EdRemY2S6oLvRfDWiqo9QKwHQ0dUg=
+			90n/fSRsleFJX0YnOFQaBG+UsCh3P6JJ2mHBX4KkP+g=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -256,6 +260,17 @@
 			LQJ+NfBWAuum/u5EJ5y+IEgtyacpoe9AxO5y/1WIzns=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/photos/Jakub_Dousa.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Q1CRqCavVl4VYFA6g8GwfirVQKw=
+			</data>
+			<key>hash2</key>
+			<data>
+			IRIKFsMZYI3l8YM23wv9ghA9JbbO40g4Lwxm8CAW5jM=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/photos/Kry%C5%A1tof%20Latka.jpg</key>
 		<dict>
 			<key>hash</key>
@@ -337,11 +352,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			p0hwSev6zg6edKqqEpLoidxjTQo=
+			FLFiSXo9xR/hI8mJpvIAqZtqFds=
 			</data>
 			<key>hash2</key>
 			<data>
-			KE+gzIOgMDQcELl0FoH0r43nZ6dHLPKxX9eNAirt8lo=
+			+7p/m4oCv2aXdyvtHoPiwQjEMF4xeMccLuM7ieDGgyA=
 			</data>
 		</dict>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
@@ -370,11 +385,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			z8x2FqKOxZKik0MoQeENt2uYiMw=
+			swaRbgn+Lv3jAos6O29vr+vRo4w=
 			</data>
 			<key>hash2</key>
 			<data>
-			fiijrhaZdbIFYBytxlku7g4JnUnFRI1XzhMaZ1UhAUI=
+			xN6tWJWDtcwtg1aU+FTTi4+LXF/IJ/4C2Ss8oUSeMv0=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
