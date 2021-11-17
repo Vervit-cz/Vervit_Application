@@ -10,6 +10,7 @@ import 'pages/splash_screen.dart';
 
 void main() {
   runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
     theme: ThemeData.light().copyWith(
       primaryColor: Color(0xFF6DA8DA),
       scaffoldBackgroundColor: kColorGray,
