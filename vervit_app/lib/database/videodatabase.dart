@@ -30,7 +30,7 @@ class Database
     List <VideoObject> videos = <VideoObject> [];
 
 
-    while (videoCounter < 300)
+    while (videoCounter < 500)
     {
 
       if (lines[videoCounter].substring(0,5) == "Video")
@@ -74,6 +74,7 @@ class Database
         print(element.videoID);
       });
     */
+    
 
   }
 

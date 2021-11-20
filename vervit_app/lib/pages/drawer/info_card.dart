@@ -22,10 +22,11 @@ class InfoCard extends StatelessWidget {
                 Row(
                   children: <Widget>[
                     Container(
-                      height: MediaQuery.of(context).size.width / 6,
-                      width: MediaQuery.of(context).size.width / 4,
+                      height: MediaQuery.of(context).size.width / 5,
+                      width: MediaQuery.of(context).size.width / 3,
                       decoration: BoxDecoration(
-                        shape: BoxShape.circle,
+                        borderRadius: BorderRadius.only(),
+                        shape: BoxShape.rectangle,
                         image: DecorationImage(
                           image: AssetImage(photo),
                           fit: BoxFit.fitHeight
