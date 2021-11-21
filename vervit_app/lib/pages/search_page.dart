@@ -211,7 +211,7 @@ class SearchResultsListView extends StatelessWidget {
       );
     }
 
-    final fsb = FloatingSearchBar.of(context);
+    FloatingSearchBar.of(context);
 
     if ((Database.orderedSearchList(searchTerm, 0, true)).isNotEmpty)
     {
@@ -238,16 +238,3 @@ class SearchResultsListView extends StatelessWidget {
 
   }
 }
-
-/*
-return ListView(
-      padding: EdgeInsets.only(top: 60),
-      children: List.generate(
-        50,
-            (index) => ListTile(
-          title: Text('$searchTerm search result'),
-          subtitle: Text(index.toString()),
-        ),
-      ),
-    );
- */

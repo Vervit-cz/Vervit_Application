@@ -4,7 +4,7 @@ import 'info_card.dart';
 
 class AboutUs extends StatelessWidget {
 
-  final String description = 'Vervit je studentský neziskový projekt, zaměřený na rozšířování technických dovedností mezi staršími lidmi. Jsme skupinou nadšených studentů z gymnázia Nový PORG v Praze a rádi bychom pomohli lidem v našem okolí.  ';
+  final String description = 'Vervit je studentský neziskový projekt, zaměřený na rozšířování technických dovedností mezi staršími lidmi. Jsme skupinou nadšených studentů z gymnázia PORG v Praze a rádi bychom pomohli lidem v našem okolí.';
 
   @override
   Widget build(BuildContext context) {

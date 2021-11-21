@@ -63,18 +63,7 @@ class Database
       videoCounter ++;
     }
 
-
     videoObjectList = videos;
-
-    /*
-    videoObjectList.forEach((element)
-      {
-        print(element.number);
-        print(element.name);
-        print(element.videoID);
-      });
-    */
-    
 
   }
 

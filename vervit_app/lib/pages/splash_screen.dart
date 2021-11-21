@@ -29,7 +29,6 @@ class _SplashState extends State<Splash> {
         'VERVIT',
         style: TextStyle(fontWeight: FontWeight.bold, fontSize: 40.0),
       ),
-      //TODO add image asset for splash
       loaderColor: Colors.black,
     );
   }
