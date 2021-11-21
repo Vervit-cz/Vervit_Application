@@ -66,7 +66,7 @@ class InfoCard extends StatelessWidget {
 var info = [
   {
     'name': 'Šimon Skoumal',
-    'info': 'Ahoj, studuji na gymnáziu Nový PORG a jsem zakladatel Vervitu. Kromě koordinace celého týmu, také pomáhám se všemi kroky produkce videí a s vývojem aplikace. Ve škole se zajímám hlavně o matematiku, fyziku a chemii. V budoucnu bych se rád věnoval strojnímu inženýrství. Kromě školy také dělám atletiku, jsem členem školního robotického a investičního týmu a píšu články na několik zpravodajských serverů.',
+    'info': 'Ahoj, studuji na gymnáziu Nový PORG a jsem zakladatel Vervitu. Kromě koordinace celého týmu také pomáhám se všemi kroky produkce videí a s vývojem aplikace. Ve škole se zajímám hlavně o matematiku, fyziku a chemii. V budoucnu bych se rád věnoval strojnímu inženýrství. Kromě školy také dělám atletiku, jsem členem školního robotického a investičního týmu a píšu články na několik zpravodajských serverů.',
     'photo': 'assets/photos/Simon_Skoumal.jpg'
   },
   {
@@ -116,7 +116,7 @@ var info = [
   },
   {
     'name': 'Jakub Seidl',
-    'info': 'Ahoj, chodím na gymnázium Nový PORG v Praze a velice se zajímám o kvantovou fyziku a astrofyziku, takže je asi jasný, že můj nejoblíbenější předmět ve škole je fyzika. Mimo školu se rád věnuji MUNům (Model United Nations), baví mě vaření a pečení a sem tam chodím do posilovny. Ve Vervitu se specializuji na střih a finalizaci videí, která poté putují k Vám.',
+    'info': 'Ahoj, jsem studentem PORGu Libeň, ve škole se nejvíc zajímám o matematiku a fyziku. Na projektu jsem se podílel zejména nastavením a správou serveru webových stránek. Ve volném čase rád programuji, kreslím, 3D modelařím, animuji a hraji hry.',
     'photo': 'assets/photos/Jakub_Seidl.jpg'
   },
   {
