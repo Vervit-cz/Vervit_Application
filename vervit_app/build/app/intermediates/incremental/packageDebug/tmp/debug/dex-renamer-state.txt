@@ -1,0 +1,4 @@
+#Fri Nov 26 20:09:45 CET 2021
+base.0=/Users/krystoflatka/Documents/GitHub/Vervit_Application/vervit_app/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

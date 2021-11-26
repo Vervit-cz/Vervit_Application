@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:vervit_app/constants.dart';
 import 'package:vervit_app/database/videodatabase.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
+import 'dart:io' show Platform;
 
 class VideoPlayer {
 
@@ -24,17 +25,23 @@ class VideoPlayer {
   ///
   /// Takes in the widget's [BuildContext] to get the size of the display
   /// Outputs a [double] containing the aspect ratio
-  static double calculateDeviceAspectRatio(BuildContext context) {
-    /// Screen padding (menus, etc)
-    // double paddingHoriz = MediaQuery.of(context).padding.left + MediaQuery.of(context).padding.right;
-    // double paddingVert = MediaQuery.of(context).padding.top + MediaQuery.of(context).padding.bottom;
+    static double calculateDeviceAspectRatio(BuildContext context) {
+     /// Screen padding (menus, etc)
+     double paddingHoriz = MediaQuery.of(context).padding.left + MediaQuery.of(context).padding.right;
+     double paddingVert = MediaQuery.of(context).padding.top + MediaQuery.of(context).padding.bottom;
 
-    /// Actual size
-    double sizeHoriz = MediaQuery.of(context).size.width; // + 2*paddingHoriz;
-    double sizeVert = MediaQuery.of(context).size.height; // + 2*paddingVert;
-
-    return sizeVert / sizeHoriz;
-  }
+     /// Actual size
+     double sizeHoriz;
+     double sizeVert;
+     if (Platform.isIOS) {
+       sizeHoriz = MediaQuery.of(context).size.width;
+       sizeVert = MediaQuery.of(context).size.height;
+     } else {
+       sizeHoriz = MediaQuery.of(context).size.width + 2*paddingHoriz;
+       sizeVert = MediaQuery.of(context).size.height + 2*paddingVert;
+     }
+     return sizeVert / sizeHoriz;
+   }
 
 }
 class Video extends StatefulWidget {
