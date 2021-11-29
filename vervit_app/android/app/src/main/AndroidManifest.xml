@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.vervit_app">
    <application
-        android:label="vervit_app"
+        android:label="Vervit"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

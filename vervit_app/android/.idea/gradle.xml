@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_inappwebview-5.3.2/android" />
+            <option value="$PROJECT_DIR$/../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.1/android" />
+            <option value="$PROJECT_DIR$/../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-6.0.10/android" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
